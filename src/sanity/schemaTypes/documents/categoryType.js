@@ -19,7 +19,6 @@ export const categoryType = defineType({
       },
     }),
     defineField({
-      title: 'Description',
       name: 'description',
       type: 'text',
     }),
