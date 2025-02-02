@@ -24,7 +24,15 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 ### Week 1
 
-Replace this paragraph with your stand up for this week. Use the prompts above to summarize your most recent milestone activity and work.
+⚙️ Overview - This week I worked on file structure, documentation, and embedding sanity in Next.Js
+<br>
+🌵 Challenges - A challenge I ran into was working with creating objects and using the structure builder for sanity.
+<br>
+🏆 Accomplishments - I got sanity initialized and schemas created. Creating dumby data to use later.
+<br>
+🔮 Next Steps - I plan to work on the todo app so I have a finished project to display on my portfolio.
+
+<br>
 
 ### Week 2
 
