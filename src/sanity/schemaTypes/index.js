@@ -5,10 +5,10 @@ import { jobType } from './documents/jobType'
 import { pageType } from './documents/pageType'
 import { profileType } from './documents/profileType'
 import { projectType } from './documents/projectType'
-import duration from './objects/duration'
+import { durationType } from './objects/duration'
 import { milestoneType } from './objects/milestoneType'
 import { timelineType } from './objects/timelineType'
 
 export const schema = {
-  types: [blockContentType, authorType, eventType, projectType, pageType, milestoneType, timelineType, duration, jobType, profileType],
+  types: [blockContentType, authorType, eventType, projectType, pageType, milestoneType, timelineType, durationType, jobType, profileType],
 }
