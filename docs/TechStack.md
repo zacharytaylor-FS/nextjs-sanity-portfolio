@@ -6,6 +6,7 @@ Fill out the headings below with your Tech Stack information. List the tools and
 
 What tool(s) will you use to create click-through designs of the application? List any UI kits you would like to utilize as well.
 
+
 - NextUI
 
 - Figma
@@ -13,6 +14,7 @@ What tool(s) will you use to create click-through designs of the application? Li
 ## Front End Framework
 
 List your approach for front end development. For example, React is an often used front-end solution for projects in addition to using moduleCSS, PropTypes, and an ESLint style guide.
+
 
 - Next.Js App Router
 
