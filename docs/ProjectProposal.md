@@ -237,3 +237,11 @@ Example:
   - DELETE /projects/:id
     - **Request Body**: id, title
     - **Response Data**: id
+
+## Footer
+
+1. Proposal for todo app is reflected above. The scope for the project is task management.
+
+2. Work ToDO: create pages and components that interact with MongoDB using a express backend server.
+
+3. NO Changes so far
