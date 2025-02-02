@@ -6,34 +6,30 @@ Fill out the headings below with your Tech Stack information. List the tools and
 
 What tool(s) will you use to create click-through designs of the application? List any UI kits you would like to utilize as well.
 
-[your response here]
+
+- NextUI
+
+- Figma
 
 ## Front End Framework
 
 List your approach for front end development. For example, React is an often used front-end solution for projects in addition to using moduleCSS, PropTypes, and an ESLint style guide.
 
-[your response here]
 
-## State Management
+- Next.Js App Router
 
-What is your proposed solution for managing data? This could mean utilizing a database, local-storage, and in general state management libraries for the application (e.g. Redux).
+- React
 
-[your response here]
+- TailwindCSS
 
-## Node
+- Styled Components
 
-Node is often used to serve both an API and to render a front-end. This includes using best practices, npm, and npx. What do you propose?
+## Content Management System
 
-[your response here]
+Describe what CMS you plan to use for the portfolio project. Find best CMS used with Next.JS
 
-## Express
+- Sanity CMS
 
-Express is a popular framework to power an API. Describe your idea for building similar functionality offered by express: e.g. middleware, routes, controllers, sending and receiving JSON data.
+- Next Sanity
 
-[your response here]
-
-## SQL/Postgres/Sequelize
-
-A popular solution for relational database work is to utilize Sequelize as an ORM. Are you familiar with migrations, models, and seeding? What tools and solutions do you propose for your application? For example, utilizing an ORM to build out models with full validated CRUD.
-
-[your response here]
+- Schemas used to store profile, project, category, job, and post.
