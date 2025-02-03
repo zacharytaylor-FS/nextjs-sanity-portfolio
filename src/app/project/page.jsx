@@ -1,3 +1,4 @@
+import { getProjects } from '@/sanity/lib/queries';
 export default async function projectsPage() {
   return (
     <div>
