@@ -245,3 +245,16 @@ Example:
 2. Work ToDO: create pages and components that interact with MongoDB using a express backend server.
 
 3. NO Changes so far
+
+<br>
+***
+
+# Change Order
+
+Provide the following informaton:
+
+- Confirm the proposal document summarizes the project scope: Yes or ?
+- Describe how much work is left to do ( a rough estimate is fine )
+- List and describe any proposed changes to the original project scope
+
+Keep in mind, approval is needed for proposed work and may include peer or instructor review(s). If you are unsure about your proposed ideas feel free to reach out to us for guidance.

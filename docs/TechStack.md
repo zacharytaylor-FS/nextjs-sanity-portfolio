@@ -6,7 +6,6 @@ Fill out the headings below with your Tech Stack information. List the tools and
 
 What tool(s) will you use to create click-through designs of the application? List any UI kits you would like to utilize as well.
 
-
 - NextUI
 
 - Figma
@@ -14,7 +13,6 @@ What tool(s) will you use to create click-through designs of the application? Li
 ## Front End Framework
 
 List your approach for front end development. For example, React is an often used front-end solution for projects in addition to using moduleCSS, PropTypes, and an ESLint style guide.
-
 
 - Next.Js App Router
 
@@ -33,3 +31,16 @@ Describe what CMS you plan to use for the portfolio project. Find best CMS used 
 - Next Sanity
 
 - Schemas used to store profile, project, category, job, and post.
+
+<br>
+***
+
+# Change Order
+
+Provide the following informaton:
+
+- Confirm this document summarizes the proposed tech stack: Yes or ?
+- Is there any additional tool or technology you may like to use for this project given enough time?
+- List and describe any proposed changes to the original tech stack
+
+Keep in mind, approval is needed for proposed work and may include peer or instructor review(s). If you are unsure about your proposed ideas feel free to reach out to us for guidance.
