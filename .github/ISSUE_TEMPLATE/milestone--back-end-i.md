@@ -2,7 +2,7 @@
 name: 'Milestone: Back-end I'
 about: Focus on building out models and route structure
 title: 'Milestone: Back-end I'
-labels: ''
+labels: development, documentation, enhancement
 assignees: ''
 
 ---
