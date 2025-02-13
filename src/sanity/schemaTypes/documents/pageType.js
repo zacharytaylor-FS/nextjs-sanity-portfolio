@@ -79,7 +79,7 @@ export const pageType = defineType({
           },
           styles: [],
         }),
-        // Custom blocks
+        //Custom blocks
         defineArrayMember({
           name: 'timeline',
           type: 'timeline',
