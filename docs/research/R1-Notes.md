@@ -26,13 +26,14 @@ Dynamic routes are best used when the exact segment name is unknown. For example
 
 <br>
 
-## Sub-Topic 2 - Replace with your sub-topic
+## Sanity CMS
 
-Brief overview of research.
+Sanity is a headless Content Management System(CMS) that is used to manage data by storing structured content that can be used in a application.
 
-- Key finding 1...
-- 2
-- 3
+- Use schemas to structure data stored
+- Can use JS to add validation and set initial values
+- Offers it's own query language GROQ
+- Live editing with instant UI
 
 <br>
 
@@ -56,8 +57,8 @@ Use this section to highlight your own independent research. Replace the example
 **Resource 2: Next.js Dynamic Routes**  
 [Dynamic Routes](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes): This site broke down dynamic routes using Next.js App Router
 
-**Resource 3: Title**  
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): This article explains that...
+**Resource 3: Jamstack: Sanity**  
+[Sanity](https://jamstack.org/headless-cms/sanity/): This article explains Sanity headless CMS features and purpose.
 
 <br>
 
