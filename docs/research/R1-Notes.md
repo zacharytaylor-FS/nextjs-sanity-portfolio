@@ -15,13 +15,13 @@ This document is a template for ongoing research. Delete this first paragraph an
 This document contains general notes related to project initiation. Coming up with project ideas while being able to pitch an idea behind the project that serves a purpose, helps picking good projects to build. To finda solid base of questions to consider when coming up with your next project. Checkout [Discovery: Can you answer software's key kickoff questions?](https://envylabs.com/insights/software-development-discovery-process)
 <br>
 
-## Sub-Topic 1 - Replace with your sub-topic
+## Next.js Dynamic Routes
 
-Brief overview of research.
+Dynamic routes are best used when the exact segment name is unknown. For example if you are working with projects a route would look like this `app/project/[slug]/page.js`.
 
-- Key finding 1...
-- 2
-- 3
+- Dynamic segments are filled with data at request time or #prerendered#
+- Dynamic segments are passed as a param prop to layout, page, route, and generateMetadata
+- Wrap folders name in [] for example [id], [slug], [title]
 
 <br>
 
@@ -52,8 +52,8 @@ Use this section to highlight your own independent research. Replace the example
 **Resource 1: Discovery: Can you answer software's key kickoff questions?**  
 [Discovery: Can you answer software's key kickoff questions?](https://envylabs.com/insights/software-development-discovery-process): I learned some key questions to consider when coming up with project ideas
 
-**Resource 2: Title**  
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): This site showed me how to...
+**Resource 2: Next.js Dynamic Routes**  
+[Dynamic Routes](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes): This site broke down dynamic routes using Next.js App Router
 
 **Resource 3: Title**  
 [Name of Site or Article Here](https://www.someaddress.com/full/url/): This article explains that...
