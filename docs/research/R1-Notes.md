@@ -21,6 +21,7 @@ Dynamic routes are best used when the exact segment name is unknown. For example
 
 - Dynamic segments are filled with data at request time or #prerendered#
 - Dynamic segments are passed as a param prop to layout, page, route, and generateMetadata
+- Params prop is a promise! You MUST use async/await or React's use function
 - Wrap folders name in [] for example [id], [slug], [title]
 
 <br>
