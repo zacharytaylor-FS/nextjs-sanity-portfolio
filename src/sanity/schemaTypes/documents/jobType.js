@@ -19,7 +19,7 @@ export const jobType = defineType({
       title: "Job Title",
       type: "string",
       description: "Enter the job title. E.g: Software Developer",
-      validation: (Rule) => Rule.required().min(40).max(50),
+      validation: (Rule) => Rule.required().min(8).max(50),
     }),
     defineField({
       name: "logo",

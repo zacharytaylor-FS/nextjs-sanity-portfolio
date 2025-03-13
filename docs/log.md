@@ -2,7 +2,7 @@
 
 # Project & Portfolio
 
-### First & Last Name
+### Zachary Taylor
 
 ![Degree Program](https://img.shields.io/badge/degree-web%20development-blue.svg)&nbsp;
 
@@ -24,7 +24,15 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 ### Week 1
 
-Replace this paragraph with your stand up for this week. Use the prompts above to summarize your most recent milestone activity and work.
+⚙️ Overview - This week I worked on file structure, documentation, creating issues & issue template's, setting up app router pages, and embedding sanity in Next.Js
+<br>
+🌵 Challenges - A challenge I ran into was working with creating objects and using the structure builder for sanity. Also struggle with getting image url's from sanity api.
+<br>
+🏆 Accomplishments - I got sanity initialized and schemas created. Creating dumby data to use later. Pulling data from sanity into pages: About, Project, and Projects.
+<br>
+🔮 Next Steps - I plan on working on my todo app and building out components && continue to make improvements to my portfolio.
+
+<br>
 
 ### Week 2
 

@@ -2,6 +2,8 @@
 
 Fill out the headings below with your Tech Stack information. List the tools and technology you would like to use for your final project. Explain your reasoning for this as well. For example, how does the proposed tool or technology provide value to your overall portfolio of work?
 
+
+
 ## Front End Framework
 
 List your approach for front end development. For example, React is an often used front-end solution for projects in addition to using moduleCSS, PropTypes, and an ESLint style guide.
@@ -37,5 +39,6 @@ Provide the following informaton:
   I would like to add some animation if I had more time.
 - List and describe any proposed changes to the original tech stack
   I updated the changes to relfect my portfolio. NextUI has been renamed to HeroUI
+
 
 Keep in mind, approval is needed for proposed work and may include peer or instructor review(s). If you are unsure about your proposed ideas feel free to reach out to us for guidance.
