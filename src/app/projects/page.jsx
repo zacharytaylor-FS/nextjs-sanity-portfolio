@@ -16,25 +16,29 @@ export default async function projectsPage() {
   return (
     <div>
       <h1>Project Page</h1>
-      {projects.map((project) => (
-        <li key={project._id} className=''>
-          <h2>{project.title}</h2>
-          {project?.coverImage && (
-            <Image
-              src={project.coverImage.image}
-              alt='project image'
-              width={220}
-              height={220}
-            />
-          )}
-          <p>{project.client}</p>
-          <p>{project.slug.current}</p>
-          <Link href={`/project/${project.slug.current}`}>
-            Check out more detail
-          </Link>
-          {project?.tags && <p>{project.tags}</p>}
-        </li>
-      ))}
+      <div className='flex space-x-5'>
+        {projects.map((project) => (
+          <li key={project._id} className='bg-slate-400 max-w-xs p-4 flex-1 '>
+            <div className='container'>
+              <h2>{project.title}</h2>
+              {project?.coverImage && (
+                <Image
+                  src={project.coverImage.image}
+                  alt='project image'
+                  width={300}
+                  height={220}
+                />
+              )}
+              <p className='mt-3'>{project.client}</p>
+              <p className='mt-3'>{project.slug.current}</p>
+              <Link href={`/project/${project.slug.current}`} className='mt-3'>
+                Check out more detail
+              </Link>
+              {project?.tags && <p className='mt-3'>{project.tags}</p>}
+            </div>
+          </li>
+        ))}
+      </div>
     </div>
   );
 }
