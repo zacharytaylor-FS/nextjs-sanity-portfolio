@@ -1,6 +1,6 @@
-import { client } from '@/sanity/lib/client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { client } from '../../sanity/lib/client';
 
 const query =
   '*[_type == "project"]{_id, title, slug, description, coverImage {alt, "image": asset->url}, url, tags [], technologies, client}';

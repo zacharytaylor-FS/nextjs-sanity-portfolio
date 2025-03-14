@@ -1,5 +1,5 @@
-import { client } from '@/sanity/lib/client';
 import Image from 'next/image';
+import { client } from '../../sanity/lib/client';
 
 const query =
   '*[_type == "profile"]{_id, fullName, email, location, skills, socialLinks, profileImage {alt, "image": asset->url}}';
