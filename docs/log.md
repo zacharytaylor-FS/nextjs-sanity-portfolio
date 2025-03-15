@@ -40,7 +40,7 @@ Each week I will summarize my milestone activity and progress by writing a stand
 <br>
 🌵 Challenges -
 <br>
-🏆 Accomplishments - .
+🏆 Accomplishments -
 <br>
 🔮 Next Steps -
 
