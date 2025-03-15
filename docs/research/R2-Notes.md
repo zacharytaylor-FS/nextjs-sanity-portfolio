@@ -30,7 +30,24 @@ What is A/B Testing? is an method where two versions of a digital assett for exa
   - **Split URL A/B**: two versions of a website with different URLS and at random direct visitors to one of the URLs. Good for major redesigns.
   - **Redirect**: direct a part of traffic to a different page on the same domain or different. Determine which page gets better results. Test major changes or compare completely different pages like a landing page or homepage.
   - **Server-side A/B**: test changes that cannot be made on the client side. Backend or API
-    <br>
+
+<br>
+
+## Agile Workflow
+
+Agile project management an iterative way to manage software development projects that focuses on freqeunt released with customer feedback.
+
+- **Agile workflow** breaks a project in phases and focuses on collaboration and imporements.
+- **Agile Cycle**: Planning, Executing, and Evaluating
+- **Scrum**: used to visualize progress in a a given sprint. Key component to increase transparency
+- **Agile Framework(s)**
+  - [Scrum]("https://www.atlassian.com/software/jira/templates/kanban")
+  - [Daily stand-up]("https://www.atlassian.com/en/agile/scrum/standups")
+  - [Jira Kanban]("https://www.atlassian.com/software/jira/templates/kanban")
+- **Developers** use A/B testing to improve features like layouts, color themes, or UI
+- **Testers** use this type of testing to check if an application or website works as expected and address
+
+<br>
 
 ## Use Case
 
@@ -57,6 +74,9 @@ Measuring performance gives a key metric to help evaluate the success of an app,
 ## Reference Links
 
 I found the resources on Use Cases the most helpful for Week 2
+**Atlassian: Software Development**  
+[The Agile Coach](https://www.atlassian.com/agile): Atlassian's no-nonsense guide to agile development
+
 **MDN web docs: Web performance**  
 [Web Performance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance): Learn extension modules on web performance
 
