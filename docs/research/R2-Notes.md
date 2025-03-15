@@ -74,6 +74,9 @@ Measuring performance gives a key metric to help evaluate the success of an app,
 ## Reference Links
 
 I found the resources on Use Cases the most helpful for Week 2
+**Atlassian: Software Development**  
+[The Agile Coach](https://www.atlassian.com/agile): Atlassian's no-nonsense guide to agile development
+
 **MDN web docs: Web performance**  
 [Web Performance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance): Learn extension modules on web performance
 
