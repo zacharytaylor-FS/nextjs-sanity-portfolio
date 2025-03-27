@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import ProjectList from '../../components/ProjectList';
 import { client } from '../../sanity/lib/client';
 
 const query =
@@ -14,29 +15,35 @@ export default async function projectsPage() {
   console.log(projects);
   console.log(projects);
   return (
-    <div>
+    <div className='max-w-6xl font-bold mx-auto px-6 py-12'>
       <h1>Project Page</h1>
-      <div className='flex space-x-5'>
+      <ProjectList projects={projects} />
+      <div className=''>
         {projects.map((project) => (
-          <li key={project._id} className='bg-slate-400 max-w-xs p-4 flex-1 '>
-            <div className='container'>
-              <h2>{project.title}</h2>
-              {project?.coverImage && (
-                <Image
-                  src={project.coverImage.image}
-                  alt='project image'
-                  width={300}
-                  height={220}
-                />
-              )}
-              <p className='mt-3'>{project.client}</p>
-              <p className='mt-3'>{project.slug.current}</p>
-              <Link href={`/project/${project.slug.current}`} className='mt-3'>
-                Check out more detail
-              </Link>
-              {project?.tags && <p className='mt-3'>{project.tags}</p>}
-            </div>
-          </li>
+          <div>
+            //Todo Add HeroUI Card to place
+            <li key={project._id} className='bg-slate-400 max-w-xs p-4 flex-1 '>
+              <div className='container'>
+                <h2>{project.title}</h2>
+                {project?.coverImage && (
+                  <Image
+                    src={project.coverImage.image}
+                    alt='project image'
+                    width={300}
+                    height={220}
+                  />
+                )}
+                <p className='mt-3'>{project.client}</p>
+                <p className='mt-3'>{project.slug.current}</p>
+                <Link
+                  href={`/project/${project.slug.current}`}
+                  className='mt-3'>
+                  Check out more detail
+                </Link>
+                {project?.tags && <p className='mt-3 mr-2'>{project.tags}</p>}
+              </div>
+            </li>
+          </div>
         ))}
       </div>
     </div>
