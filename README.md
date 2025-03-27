@@ -1,33 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js + Sanity Portfolio app
 
-## Getting Started
+This is a portfolio project to display skills, projects, and job experience. A Next.js content-driven website backed by Sanity & designed using HeroIU(previously NextUI).
 
-First, run the development server:
+## Getting started
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone git@github.com:zacharytaylor-FS/nextjs-sanity-portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd nextjs-sanity-portfolio
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Create .env file and add environment variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+touch .env
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Start the server
+
+```bash
+  npm run dev
+```
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env.local file
+
+`NEXT_PUBLIC_SANITY_PROJECT_ID`
+
+`NEXT_PUBLIC_SANITY_DATASET`
+
+`SANITY_API_READ_TOKEN`
+
+## Tech Stack
+
+**Client:** Next.js, TailwindCSS, HeroUI, dotenv
+
+**CMS:** Sanity
+
+## Features
+
+- Light/dark mode toggle
+- Responsive Layout
+- Fullscreen mode
 
 ## Deploy on Vercel
 

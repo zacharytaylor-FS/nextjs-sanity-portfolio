@@ -36,7 +36,13 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 ### Week 2
 
-My next stand up will go here...
+⚙️ Overview -
+<br>
+🌵 Challenges -
+<br>
+🏆 Accomplishments -
+<br>
+🔮 Next Steps -
 
 ### Week 3
 
