@@ -1,4 +1,3 @@
-import { Button } from '@heroui/button';
 import clsx from 'clsx';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { Navbar } from '../components/Navbar';
@@ -36,8 +35,7 @@ export default function RootLayout({ children }) {
               <Link href={'/projects'}>Projects</Link>
               {/* <ThemeSwitch /> 
             </nav> */}
-            <main className='container mx-auto max-w-7xl pt-16 px-6 flex-grow'>
-              <Button>Click Me</Button>
+            <main className='container max-w-7xl px-6 flex-grow'>
               {children}
             </main>
             {/* <ThemeSwitcher /> */}

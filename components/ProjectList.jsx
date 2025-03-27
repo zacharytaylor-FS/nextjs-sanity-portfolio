@@ -11,15 +11,16 @@ import Link from 'next/link';
 
 export default function ProjectList({ projects }) {
   return (
-    <div className='gap-2 grid grid-cols-2 sm:grid-cols-4'>
+    <div className='gap-8 grid grid-cols-2 lg:grid-cols-3'>
       {projects.map((project) => (
-        <Card key={project._id} className='py-4 max-w-sm'>
+        <Card key={project.title} shadow='md' className='py-4 '>
           <CardHeader className='pb-0 pt-2 px-4 flex-col items-start'>
             <h4 className='font-bold text-large'>{project.title}</h4>
             <Image
-              className='object-cover rounded-xl'
+              className='w-full object-fit rounded-xl h-[230px]'
               src={project.coverImage.image}
               alt='Project Image'
+              width='100%'
             />
           </CardHeader>
           <CardBody>
