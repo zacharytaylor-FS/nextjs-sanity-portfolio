@@ -26,6 +26,11 @@ What is a SWOT analysis? A framework used by business's to assess their position
   - **Opportunities**: External factor that offers a guarantee or to contribute to company success
   - **Threats**: External factor that can negatively affect success
 - [SWOT Analysis Template](https://www.forbes.com/advisor/wp-content/uploads/2022/01/SWOT_Analysis_Template.pdf)
+- **Alternatives**
+  - **SOAR**: Strengths, Opportunities, Aspirations, and Results
+  - **SCORE**: Strengths, Challenges, Options, Responses and Effectiveness
+  - **NOISE**: Needs, Opportunities, Improvements, Strengths and exceptions
+  - **Gap**: Looks at where you're at, where you'd like to be, and how close the gap between the two
 
 <br>
 
