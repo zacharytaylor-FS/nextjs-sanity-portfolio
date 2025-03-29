@@ -18,14 +18,21 @@ This document contains general notes related to staging and getting your code re
 
 ## Writing Clean Code
 
-What is a SWOT analysis? A framework used by business's to assess their positioning in the market. A SWOT analysis looks at 4 key characteristics Strengths, Weaknesses, Opportunities, and Threats.
+Every developer aims to write clean code. Bad code can kill productivity
 
-- **Strenghts**:
-- **Weaknesses**:
-- **Opportunities**:
-- **Threats**:
-- **Other Type of Analysis's**
-  - \*\*\*\*:
+- **Dependencies**
+  - Keep to a minimum so maintenance is easy
+- **Error Handling**
+  - Pay attention to detail
+- **Meaningful Names**
+  - Use Intention-Revealing Names
+  - Use Pronounceable Names
+  - Class Names: Objects and Classes should have a noun or noun phrase names
+- **Error Handling**
+  - Write **Try-Catch-Finally** Statement first
+  - DONT return Null
+    OR
+  - DONT Pass Null
 
 <br>
 
