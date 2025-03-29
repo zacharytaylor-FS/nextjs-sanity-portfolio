@@ -58,11 +58,13 @@ A programming language that treats your code like data. Created to make it easie
 
 ## Creativity & Innovations
 
-Measuring performance gives a key metric to help evaluate the success of an app, site, or web service
+I looked at a few Creativity & Innovation topics like Digital Video, Open Access, and Test Your ISP
 
-- Web performance along with best practices-are key to website visitors having a good experience
-- The goal is to make websites or applications faster.
-- **Percieved performance** is a measure of website performance, responsiveness, and reliability.
+- **Open Access**
+  - **Research available online for the public, free of $$$**
+  - **Research reusable by publishing it an open licensing scheme**
+- **Fair Access to Science and Technology Research Act (FASTR)**:
+  - Bill requires any government agency with extramural( outside the walls) research budget over $100 million ensures research is placed in a public repository within 6 months on publication
 
 <br>
 
@@ -72,8 +74,12 @@ I found the resources on Use Cases the most helpful for Week 2
 **Forbes**  
 [What is A SWOT Analysis? ](https://www.forbes.com/advisor/business/what-is-swot-analysis/)
 
+**Asana**
+[What is a SWOT analysis?](https://asana.com/resources/swot-analysis)
+
 **Electronics Frontier**  
 [Electronics Frontier](https://www.eff.org/issues/innovation)
+[Open Access](https://www.eff.org/issues/open-access)
 
 **OWASP**  
 [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
@@ -82,8 +88,3 @@ I found the resources on Use Cases the most helpful for Week 2
 [CodeQL](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql)
 
 <br>
-
-**Note:**
-
-- It is acceptable to provide multiple links for a single sub-topic.
-- Be sure to explain what resource(s) you found most helpful for the current milestone.
