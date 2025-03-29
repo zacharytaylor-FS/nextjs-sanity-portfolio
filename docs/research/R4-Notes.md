@@ -58,6 +58,24 @@ Measuring performance gives a key metric to help evaluate the success of an app,
 - The goal is to make websites or applications faster.
 - **Percieved performance** is a measure of website performance, responsiveness, and reliability.
 
+## Style Organization
+
+There are different approaches to structuring CSS. May involve CSS clean-up by using some of the tips.
+
+- **Formatting readable CSS**
+  - Same line `javascript .box {background-color: #000000}`
+    OR
+  - `javascript
+.box {
+  background-color: #000000
+}
+`
+- **Comments For CSS**
+  - Add a block of comments between logical sections
+    - /_ || General Styles_/
+    - Comment when decisions are made for specific reason
+- **Create logical sections in your stylesheet**
+
 <br>
 
 ## Reference Links
@@ -68,6 +86,9 @@ I found the resources on Use Cases the most helpful for Week 2
 
 **README**  
 [README file](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+**MDN Web Docs**  
+[Organizing your CSS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing)
 
 <br>
 
