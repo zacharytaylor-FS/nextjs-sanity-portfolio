@@ -20,12 +20,12 @@ This document contains general notes related to innovation by looking into secur
 
 What is a SWOT analysis? A framework used by business's to assess their positioning in the market. A SWOT analysis looks at 4 key characteristics Strengths, Weaknesses, Opportunities, and Threats.
 
-- **Strenghts**:
-- **Weaknesses**:
-- **Opportunities**:
-- **Threats**:
-- **Other Type of Analysis's**
-  - \*\*\*\*:
+- **SWOT Analysis** covers the following characteristics:
+  - **Strenghts**: Internal positives that can be seen as an advantage over competitors
+  - **Weaknesses**: Adverse internal attribute that takes away from you Strengths
+  - **Opportunities**: External factor that offers a guarantee or to contribute to company success
+  - **Threats**: External factor that can negatively affect success
+- [SWOT Analysis Template](https://www.forbes.com/advisor/wp-content/uploads/2022/01/SWOT_Analysis_Template.pdf)
 
 <br>
 
