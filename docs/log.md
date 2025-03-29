@@ -34,19 +34,25 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 <br>
 
-### Week 2
+<!-- ### Week 2
 
-⚙️ Overview -
+⚙️ Overview - This week I worked on file structure, prioritizing important tasks.
 <br>
 🌵 Challenges -
 <br>
 🏆 Accomplishments -
 <br>
-🔮 Next Steps -
+🔮 Next Steps - -->
 
-### Week 3
+### Week 2 & 3
 
-Stay tuned, this stand up is coming soon...
+⚙️ Overview - For Week(s) 2 & 3 I worked on file structure, building components, prioritizing issues and implementing HeroUI. Also did a tutorial on adding CodeQL from GitHub.
+<br>
+🌵 Challenges - My biggest challenge is time. I feel as if I'm running out of time. I aim to write clean code and at times holds me back from experimenting. Not sure what icon library to use.
+<br>
+🏆 Accomplishments - Improvements made to file structure, UI library added and project running with NO ISSUES.
+<br>
+🔮 Next Steps - Work on Layout and CSS variables
 
 ### Week 4
 
