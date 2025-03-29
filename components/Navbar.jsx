@@ -20,10 +20,10 @@ import {
   DiscordIcon,
   GithubIcon,
   HeartFilledIcon,
-  Logo,
   SearchIcon,
   TwitterIcon,
 } from './icons';
+import { Logo } from './Logo';
 import { ThemeSwitch } from './ThemeSwitcher';
 
 export const Navbar = () => {
@@ -53,8 +53,13 @@ export const Navbar = () => {
       <NavbarContent className='basis-1/5 sm:basis-full' justify='start'>
         <NavbarBrand as='li' className='gap-3 max-w-fit'>
           <NextLink className='flex justify-start items-center gap-1' href='/'>
-            <Logo />
-            <p className='font-bold text-inherit'>ACME</p>
+            <Logo
+              logo='./TayDarkLogoSmall.png'
+              height={200}
+              width={200}
+              className='rounded-none'
+            />
+            {/* <p className='font-bold text-inherit'>FOLIO</p> */}
           </NextLink>
         </NavbarBrand>
         <ul className='hidden lg:flex gap-4 justify-start ml-2'>
