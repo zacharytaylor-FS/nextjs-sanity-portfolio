@@ -52,11 +52,13 @@ A programming language that treats your code like data. Created to make it easie
 
 ## Linters
 
-Measuring performance gives a key metric to help evaluate the success of an app, site, or web service
+Linters offer code quality rules and stylistic rules. Prettier best used for formatting code and linters used for code-quality.
 
 - Web performance along with best practices-are key to website visitors having a good experience
-- The goal is to make websites or applications faster.
-- **Percieved performance** is a measure of website performance, responsiveness, and reliability.
+- [EsLint Plugin for Prettier](https://github.com/prettier/prettier-eslint)
+  - Runs prettier as an ESLint rule
+- [Prettier & EsLint](https://github.com/prettier/prettier-eslint)
+  - Prettier formats your code, then passes to eslint --fix
 
 ## Style Organization
 
@@ -86,6 +88,10 @@ I found the resources on Use Cases the most helpful for Week 2
 
 **README**  
 [README file](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+**Prettier**  
+[Prettier-ESLint](https://github.com/prettier/prettier-eslint)
+[ESLint Plugin Prettier](https://github.com/prettier/eslint-plugin-prettier)
 
 **MDN Web Docs**  
 [Organizing your CSS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing)
