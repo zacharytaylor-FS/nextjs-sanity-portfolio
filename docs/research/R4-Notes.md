@@ -31,23 +31,38 @@ What is a SWOT analysis? A framework used by business's to assess their position
 
 ## 80/20
 
-OWASP is a nonprofit foundation that works to improve security of software. With tens of thousands members, offers the top 10 security risks to look out for in 2025 so that a business can lower their risks.
+The Pareto principle: Roughly 80% of outcomes come from 20% of causes. Can help you determine and prioritize high-impact tasks, which improves productivity.
 
-- **Testing**: Ensuring to test if code is secure
-- **OWASP Global AppSec USA 2025**: November 3-7, 2025 in Washing DC
-- #10 [Server-Side Request Forgery](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/)
-- #6 [Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
+- Developed by Italian economist **Vilfredo Pareto** in 1896
+  - 80% of land in italy owned by only 20% of the population
+    This relationship is best mathematically described as a power law distribution between two quantities, in which a change in one quantity results in a relevant change into the othe
+- Name(s)
+  - Pareto Principle
+  - The 80/20 rule
+  - Law of the vital few
+  - Principle of factor sparsity
 
 <br>
 
 ## README.md
 
-A programming language that treats your code like data. Created to make it easier to analyze code and find vulnerabilities
+A README file is to help a visitor understand what your code includes and why it's noteworthy. Help other developers get your project up an running smoothly.
+**README Editor in your Web Browser**
 
-- **Database**: generate CodeQl database to represent code
-- **Queries**: Use queries to find problems in the code
-- **Alerts**: Code scanning alerts on GitHub
-- Supports compiled and interpreted languages
+- [Easiest way to create a README](https://readme.so)
+
+**ALWAYS include the following:**
+
+- **Titles & Internal titles**
+  - Project name gets h1 using #
+  - Table of Contents: highlighting sections
+- **Introduction**
+  - View as a Summary
+  - Two or Three sentences
+  - Projects aim
+- **Technologies**
+- **Launch/Getting Started**
+- **Illustrations**
   <br>
 
 ## Linters
@@ -87,7 +102,9 @@ I found the resources on Use Cases the most helpful for Week 2
 [Writing Clean Code](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/chapter01.xhtml#ch1lev1sec1)
 
 **README**  
+[README](https://docs.readme.com)
 [README file](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+[README.so](https://readme.so)
 
 **Prettier**  
 [Prettier-ESLint](https://github.com/prettier/prettier-eslint)
@@ -95,6 +112,10 @@ I found the resources on Use Cases the most helpful for Week 2
 
 **MDN Web Docs**  
 [Organizing your CSS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing)
+
+**Asana**
+[How to be more productive: 13 tips to practice today](https://asana.com/resources/how-to-be-more-productive)
+[Understanding the Pareto principle(The 80/20 rule)](https://asana.com/resources/pareto-principle-80-20-rule)
 
 <br>
 
