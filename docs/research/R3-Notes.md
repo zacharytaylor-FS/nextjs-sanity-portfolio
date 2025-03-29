@@ -47,8 +47,9 @@ OWASP is a nonprofit foundation that works to improve security of software. With
 
 ## CodeQL
 
-A programming language that treats your code like data. Created to make it easier to analyze code and find vulnerabilities
+A programming language that treats your code like data. Created to make it easier to analyze code and find vulnerabilities.
 
+- Code analysis engine developed by GitHub
 - **Database**: generate CodeQl database to represent code
 - **Queries**: Use queries to find problems in the code
 - **Alerts**: Code scanning alerts on GitHub
@@ -68,8 +69,14 @@ Measuring performance gives a key metric to help evaluate the success of an app,
 ## Reference Links
 
 I found the resources on Use Cases the most helpful for Week 2
+**Forbes**  
+[What is A SWOT Analysis? ](https://www.forbes.com/advisor/business/what-is-swot-analysis/)
+
 **Electronics Frontier**  
 [Electronics Frontier](https://www.eff.org/issues/innovation)
+
+**OWASP**  
+[OWASP Top Ten](https://owasp.org/www-project-top-ten/)
 
 **GitHub Docs**  
 [CodeQL](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql)
