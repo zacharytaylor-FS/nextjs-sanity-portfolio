@@ -29,7 +29,7 @@ export default function ProjectList({ projects }) {
             <ul className='flex mt-3'>
               {project.tags.map((tag, index) => (
                 <li key={tag} className='flex-auto'>
-                  {tag}
+                  <small className='font-bold'>{tag}</small>
                 </li>
               ))}
             </ul>
