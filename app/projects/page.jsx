@@ -4,7 +4,7 @@ import ProjectList from '../../components/ProjectList';
 import { client } from '../../sanity/lib/client';
 
 const query =
-  '*[_type == "project"]{_id, title, slug, description, coverImage {alt, "image": asset->url}, url, tags [], technologies, client}';
+  '*[_type == "project"]{_id, title, slug, description, coverImage {alt, "image": asset->url}, url, tags [], technologies, client, timeline}';
 
 async function getProjects() {
   return client.fetch(query);
