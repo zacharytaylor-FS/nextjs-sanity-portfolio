@@ -1,3 +1,5 @@
+'use client';
+
 export const Logo = ({ size = 36, width, height, ...props }) => (
   <svg
     fill='none'
