@@ -56,6 +56,12 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 ### Week 4
 
-My final stand up...
+⚙️ Overview - For Week 4, Im just getting to it. Mainly working on implementing HeroUI and building components
+<br>
+🌵 Challenges - My biggest challenge is time. I feel as if I'm running out of time. I aim to write clean code and at times holds me back from experimenting. Not sure what icon library to use.
+<br>
+🏆 Accomplishments - Improvements made to file structure, UI library added and project running with NO ISSUES.
+<br>
+🔮 Next Steps - Work on Layout and CSS variables
 
 <br>
