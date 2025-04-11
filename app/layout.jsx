@@ -1,10 +1,14 @@
 import clsx from 'clsx';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Geist, Geist_Mono, Inter } from 'next/font/google';
 import { Navbar } from '../components/Navbar';
 import '../styles/globals.css';
 import { Providers } from './providers';
 const geistSans = Geist({
   variable: '--font-geist-sans',
+  subsets: ['latin'],
+});
+
+const inter = Inter({
   subsets: ['latin'],
 });
 
@@ -20,13 +24,13 @@ const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html lang='en' suppressHydrationWarning className=''>
       <body
         className={clsx(
           `min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`,
         )}>
         <Providers themeProps={{ attribute: 'class' }}>
-          <div className='relative flex flex-col h-screen '>
+          <div className='relative flex flex-col h-screen w-screen'>
             <Navbar />
             {/* <nav className=''>
               <Link href={'/'}>Home</Link>
@@ -35,9 +39,7 @@ export default function RootLayout({ children }) {
               <Link href={'/projects'}>Projects</Link>
               {/* <ThemeSwitch /> 
             </nav> */}
-            <main className='container max-w-7xl px-6 flex-grow'>
-              {children}
-            </main>
+            <main className='w-full max-w-9xl px-6 flex-grow'>{children}</main>
             {/* <ThemeSwitcher /> */}
           </div>
         </Providers>
