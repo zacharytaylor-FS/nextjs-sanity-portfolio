@@ -61,21 +61,31 @@ Drive traffic to portfolio offer digital and physical ways to target your audien
 
 #### 🛜 Domain Name: Registration
 
-###### Platform: Hostinger
+- **Platform: Hostinger**
 
-- Cost: $2.69 /month
+  - Cost: $2.69 /month
 
-- FREE domain, email, and website backups
+  - FREE domain, email, and website backups
 
-###### Platform: Wix
+- **Platform: Wix**
 
-- Cost: FREE SSL Certificate
-- Advanced security measuring
+  - Cost: FREE SSL Certificate
+  - Advanced security measuring
 
-###### Platform: IONOS
+- **Platform: IONOS**
 
-- Cost: Free domain & SSL Certificate
-- FREE shipping
+  - Cost: Free domain & SSL Certificate
+  - FREE shipping
+
+#### Flyer's
+
+- Canva Infographic
+- QR Code Marketing
+  - Direct to landing page
+  - Gather feedback - customer satisfaction survey or leave a review
+  - [qrcode monkey 100% FREE](https://www.qrcode-monkey.com/)
+  - [QR Code Generator](https://www.qr-code-generator.com/)
+- Style Tile
 
 <br>
 
@@ -130,21 +140,11 @@ Drive traffic to portfolio offer digital and physical ways to target your audien
 - **Medium**
   - Post an article on Next.Js and HeroUI
 
-#### Flyer's
-
-- Canva Infographic
-- QR Code Marketing
-  - Direct to landing page
-  - Gather feedback - customer satisfaction survey or leave a review
-  - (qrcode monkey 100% FREE)[https://www.qrcode-monkey.com/]
-  - (QR Code Generator)[https://www.qr-code-generator.com/]
-- Style Tile
-
 #### Marketing Ads
 
-- MUST DO Keyword Research
+- MUST DO _Keyword Research_
 - Banner Ads
-  ![alt text](DigitalBannerSizes.png)
+  ![Digital Banner Sizes](DigitalBannerSizes.png)
 - Facebook Ads
   - Ads Manager - also IG & Messenger
 - Click ads
@@ -185,6 +185,8 @@ Use this section to highlight your own independent research. Replace the example
 
 [Drive Results with Snap's Immersive Ad Formats](https://forbusiness.snapchat.com/advertising/ad-formats?_sid=PAID&utm_campaign=US_G_Search_Brand_MKAG-howtocreateads&utm_content=startsnapchatads&utm_medium=PAIDB2B&utm_source=GoogleSEM&utm_term=US&gclid=CjwKCAjw--K_BhB5EiwAuwYoyiFUREEZWXdQVHsnlndjfxpArHA0PUqmSyP1g9YXamGXbrIsTSwDPBoCQ7cQAvD_BwE): Grow your business with Snapchat Ads
 
+**Facebook Ad Manager**
+[Ad Manager](https://en-gb.facebook.com/business/tools/ads-manager): manage ads for Instagram, Facebook, and Messenger
 **Google AI**
 [Click Ad's](https://docs.google.com/document/d/e/2PACX-1vQuYu0KzaIVn-Q4GuqvuPShML0RpfKV8J32y07Z53AXJwaVsNw3zRfsCPaDWYHm40OuiVSyWWoMOPhB/pub): Clicks Ad's (PPC or CPC)
 
