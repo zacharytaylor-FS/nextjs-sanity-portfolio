@@ -140,13 +140,16 @@ Drive traffic to portfolio offer digital and physical ways to target your audien
   - (QR Code Generator)[https://www.qr-code-generator.com/]
 - Style Tile
 
-#### Ads
+#### Marketing Ads
 
+- MUST DO Keyword Research
 - Banner Ads
+  ![alt text](DigitalBannerSizes.png)
 - Facebook Ads
-- Youtube Ads
-- Medium Ads
+  - Ads Manager - also IG & Messenger
 - Click ads
+  - Pay-per-click(PPC): ONLY pay when a user clicks on their ad
+  - Cost-per-pick(CPC): Refer to the amount an advertiser pays for each click
 
 #### Influencer collaborations
 
@@ -181,5 +184,8 @@ Use this section to highlight your own independent research. Replace the example
 [How to get more app install with SnapChat Ads](https://forbusiness.snapchat.com/advertising/industry/app?_sid=PAID&utm_campaign=US_G_Search_Brand_MKAG-howtocreateads&utm_content=startsnapchatads&utm_medium=PAIDB2B&utm_source=GoogleSEM&utm_term=US&gclid=CjwKCAjw--K_BhB5EiwAuwYoyiFUREEZWXdQVHsnlndjfxpArHA0PUqmSyP1g9YXamGXbrIsTSwDPBoCQ7cQAvD_BwE)
 
 [Drive Results with Snap's Immersive Ad Formats](https://forbusiness.snapchat.com/advertising/ad-formats?_sid=PAID&utm_campaign=US_G_Search_Brand_MKAG-howtocreateads&utm_content=startsnapchatads&utm_medium=PAIDB2B&utm_source=GoogleSEM&utm_term=US&gclid=CjwKCAjw--K_BhB5EiwAuwYoyiFUREEZWXdQVHsnlndjfxpArHA0PUqmSyP1g9YXamGXbrIsTSwDPBoCQ7cQAvD_BwE): Grow your business with Snapchat Ads
+
+**Google AI**
+[Click Ad's](https://docs.google.com/document/d/e/2PACX-1vQuYu0KzaIVn-Q4GuqvuPShML0RpfKV8J32y07Z53AXJwaVsNw3zRfsCPaDWYHm40OuiVSyWWoMOPhB/pub): Clicks Ad's (PPC or CPC)
 
 <br>
