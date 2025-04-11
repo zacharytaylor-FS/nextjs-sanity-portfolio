@@ -17,7 +17,6 @@ This document outlines a marketing plan aimed to promote and grow visibility for
 
 ### 2. 🎯 Target Audience: Why and Who?
 
-- Identify target audience
 - Tech recruiters or hiring managers
 - Startups looking for web/dev skills
 - Collaborators and other developers or designers
@@ -51,6 +50,8 @@ This document outlines a marketing plan aimed to promote and grow visibility for
 - Medium / GeeksForGeeks
 - LinkedIn Articles
 - Personal Blog
+- Instagram
+- YouTube
 
 <br>
 
