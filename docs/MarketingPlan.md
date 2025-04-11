@@ -2,18 +2,21 @@
 
 This document outlines a marketing plan aimed to promote and grow visibility for the **Taylor'D** portfolio project. Using Next.Js, HeroUI, and Sanity CMS with the goal to build a strong online presence for clients, potential employer's, and other developers or designers.
 
-## Table of Contents
+### Table of Contents
 
+- What is Taylor'D?
 - Target Audience
 - Portfolio Checklist
-- Marketing Methods
+- Content Strategy
+- Traffic
 - SEO
-- Social Media Launch
-  <br>
+- Marketing Methods
 
-### **📦 What the Product is (3-4 sentences)**
+<br>
 
-**Taylor'D** _Code. Design. Perfectly Taylor'D._ portfolio project can be seen as a more digital alternative to writing a cover letter or resume. **Taylor'D** is built using Next.JS with a clean UI from the help of HeroUI and TailwindCSS and data coming in from Sanity CMS. This portfolio will display my skills, achievements, education, and projects.
+### **📦 What is Taylor'D?**
+
+_Code. Design. Perfectly Taylor'D._ portfolio project can be seen as a more digital alternative to writing a cover letter or resume. **Taylor'D** is built using Next.JS with a clean UI from the help of HeroUI and TailwindCSS and data coming in from Sanity CMS. This portfolio will display my skills, achievements, education, and projects.
 
 ### **🎯 Target Audience: Why and Who?**
 
@@ -21,10 +24,7 @@ This document outlines a marketing plan aimed to promote and grow visibility for
 - Startups looking for web/dev skills
 - Collaborators and other developers or designers
 - Local colleges or Remote
-- Online community
-  - GeeksForGeeks
-  - Medium
-  - LinkedIn
+- Online community (GeeksForGeeks, Medium, LinkedIn, etc.)
 
 ### **🧳 Portfolio Checklist**
 
@@ -38,14 +38,14 @@ This document outlines a marketing plan aimed to promote and grow visibility for
 
 ### **✍🏽 Content Strategy**
 
-#### Blog / Case Study Ideas
+**Blog / Case Study Ideas**
 
 - 'How I built Taylor'D using Next.js and Sanity'
 - 'No longer NextUI...new and improved HeroUI'
 - 'Implement NextAuth'
 - Case Studies?
 
-#### Distribution Platforms
+**Distribution Platforms**
 
 - Medium / GeeksForGeeks
 - LinkedIn Articles
@@ -55,51 +55,55 @@ This document outlines a marketing plan aimed to promote and grow visibility for
 
 <br>
 
-### **🚦 Traffic**
+### **🚦 Drive Traffic**
 
-Drive traffic to portfolio offer digital and physical ways to target your audience.
+**🛜 Domain Registration**
 
-#### 🛜 Domain Name: Registration
+**Platform: Hostinger**
 
-- **Platform: Hostinger**
+- Cost: $2.69 /month
 
-  - Cost: $2.69 /month
+- FREE domain, email, and website backups
 
-  - FREE domain, email, and website backups
+**Platform: Wix**
 
-- **Platform: Wix**
+- Cost: FREE SSL Certificate
+- Advanced security measuring
 
-  - Cost: FREE SSL Certificate
-  - Advanced security measuring
+**Platform: IONOS**
 
-- **Platform: IONOS**
+- Cost: Free domain & SSL Certificate
+- FREE shipping
 
-  - Cost: Free domain & SSL Certificate
-  - FREE shipping
-
-#### Flyer's
+**Flyer's**
 
 - Canva Infographic
+- Gather feedback - customer satisfaction survey or leave a review?
+- Pop-up contact and ask for contact information
 - QR Code Marketing
-  - Direct to landing page
-  - Gather feedback - customer satisfaction survey or leave a review
   - [qrcode monkey 100% FREE](https://www.qrcode-monkey.com/)
   - [QR Code Generator](https://www.qr-code-generator.com/)
-- Style Tile
+  - Direct to landing page?
+- Color Scheme
+
+**Posting Schedule(Instagram/LinkedIn)**:
+
+- 3x per week
+- 1x blog post every 3 weeks
+- Q/A monthly
 
 <br>
 
-### Research
+### **🔎 SEO**
 
 - Target audience
-  - where hangout online & real life
   - Purchase
   - How they will use application
 - articulate plan to drive traffic to Capstone
 
 <br>
 
-### 💹 Marketing Methods (min 4-6)
+### **💹 Marketing Methods**
 
 - Describe methods to reach target audience
 - List marketing methods
@@ -108,7 +112,7 @@ Drive traffic to portfolio offer digital and physical ways to target your audien
   - Resources
 - How methods will work and why
 
-#### Conference's
+#### **🏢 Conference's**
 
 - **Black is Tech Week 2025**
   - Location: Houston, TX
@@ -123,71 +127,90 @@ Drive traffic to portfolio offer digital and physical ways to target your audien
   - Date: October 14th - 16th, 2025
   - Online
 
-#### Social Media
+#### **📱 Social Media**
 
-- **Instagram**
-  - Reel / Content Ideas
-    - 'Next.Js vs. Express.Js'
-    - 'JavaScript cheat sheet'
-    - 'GitHub commands'
-    - 'Color Palettes'
-- **LinkedIn Article / Post**
-  - 'How i built Taylor'D using Next.js & Sanity'
-  - Display YouTube link with image
-- **SnapChat**
-  - App installs with Snapchat Ads
-  - Snapchat Ad Formats
-- **Medium**
-  - Post an article on Next.Js and HeroUI
+**Instagram**:
 
-#### Marketing Ads
+- **Reels / Content Ideas**
+  - 'Next.Js vs. Express.Js'
+  - 'JavaScript cheat sheet'
+  - 'GitHub commands'
+  - 'Color Palettes'
 
-- MUST DO _Keyword Research_
-- Banner Ads
-  ![Digital Banner Sizes](DigitalBannerSizes.png)
-- Facebook Ads
+**LinkedIn**:
+
+- Professional reach
+- 'How i built Taylor'D using Next.js & Sanity'
+- Display YouTube link with image
+
+**SnapChat (optional)**
+
+- Influencer promo
+- App installs with Snapchat Ads
+- Snapchat Ad Formats
+
+#### **📈 Marketing Ads**
+
+<img src='DigitalBannerSizes.png' alt='Digital Banner Sizes' width='350'>
+
+- **Meta Ads**
   - Ads Manager - also IG & Messenger
-- Click ads
+- **Click ads**
   - Pay-per-click(PPC): ONLY pay when a user clicks on their ad
   - Cost-per-pick(CPC): Refer to the amount an advertiser pays for each click
+- **Google Ads**
 
-#### Influencer collaborations
+  **Cost for Roanoke-Lynchburg Area:**
 
-- Promotion
+  <img src='Screenshot 2025-04-11 at 10.51.09 AM.png' alt='Google Ad Budget for Roanoke-Lynchburg, VA' height='200'>
 
-#### 📇 Business Card: Physical
+#### **🤝🏽 Community Engagement**
+
+- Web Developer discussions
+- Network with influencer with a strong digital presence
+- Discord or Slack gang
+- Try my app...not happy? offer reward
+
+#### **📇 Business Card**
 
 - Platform: Canva
-- Cost: 100 cards / $22 - 50cards / $16.50
-  - FREE shipping
-- Style
-  - Premium paper
-  - Matte finish
-  - Square corners
+- Style: Premium paper, Matte finish, and Square Corners
+- Cost: 100 cards / $22 --- 50 cards / $16.50
 
 <br>
 
-## Reference Links
+<hr>
 
-Use this section to highlight your own independent research. Replace the example references below with your own links and recommended resources. For example...
+### 🔗 Reference Links
 
-**Website Planet**  
+**Website Planet**
+
 [25 Best Marketing Portfolio Examples to Inspire You in 2025](https://www.websiteplanet.com/blog/best-marketing-portfolio-examples/): Great portfolio examples to reference or draw inspiration from.
 
-**Forbes Advisor**  
+**Forbes Advisor**
+
 [Best Web Hosting Services of April 2025](https://www.forbes.com/advisor/l/best-web-hosting-services/?utm_content=165880225807&utm_term=kwd-10020181&utm_campaign=21283872658&utm_source=google&utm_medium=cpc&accountid=5243522780&utm_content=165880225807&utm_term=kwd-10020181&utm_campaign=21283872658&network=g&device=c&placement=&location_physical=9008741&device_model=&creative=728159286918&gad_source=1&gclid=CjwKCAjw--K_BhB5EiwAuwYoysvBcizs08ESYiMh6XGb0nImj2A6imiyx7QvTNDKsnLDNmDJg4cTWBoCHekQAvD_BwE)
 
-**Bluehost**  
+**Bluehost**
+
 [How to Grow your business with QR Code marketing](https://www.bluehost.com/blog/qr-code-marketing/?utm_campaign=dsa_blog_PPC&utm_source=googleads&utm_medium=genericsearch&channelid=P61C101S570N0B5578A2D4499E0000V113&gad_source=1&gclid=CjwKCAjw--K_BhB5EiwAuwYoyma1PjIdtKvg8spediV7DahEORsm8KfZ7FX3O2KE7VvV4xd28ortaBoCFgsQAvD_BwE&gclsrc=aw.ds)
 
-**SnapChat Business**  
+**SnapChat Business**
+
 [How to get more app install with SnapChat Ads](https://forbusiness.snapchat.com/advertising/industry/app?_sid=PAID&utm_campaign=US_G_Search_Brand_MKAG-howtocreateads&utm_content=startsnapchatads&utm_medium=PAIDB2B&utm_source=GoogleSEM&utm_term=US&gclid=CjwKCAjw--K_BhB5EiwAuwYoyiFUREEZWXdQVHsnlndjfxpArHA0PUqmSyP1g9YXamGXbrIsTSwDPBoCQ7cQAvD_BwE)
 
 [Drive Results with Snap's Immersive Ad Formats](https://forbusiness.snapchat.com/advertising/ad-formats?_sid=PAID&utm_campaign=US_G_Search_Brand_MKAG-howtocreateads&utm_content=startsnapchatads&utm_medium=PAIDB2B&utm_source=GoogleSEM&utm_term=US&gclid=CjwKCAjw--K_BhB5EiwAuwYoyiFUREEZWXdQVHsnlndjfxpArHA0PUqmSyP1g9YXamGXbrIsTSwDPBoCQ7cQAvD_BwE): Grow your business with Snapchat Ads
 
 **Facebook Ad Manager**
+
 [Ad Manager](https://en-gb.facebook.com/business/tools/ads-manager): manage ads for Instagram, Facebook, and Messenger
+
 **Google AI**
+
 [Click Ad's](https://docs.google.com/document/d/e/2PACX-1vQuYu0KzaIVn-Q4GuqvuPShML0RpfKV8J32y07Z53AXJwaVsNw3zRfsCPaDWYHm40OuiVSyWWoMOPhB/pub): Clicks Ad's (PPC or CPC)
+
+**Google Business**
+
+[YouTube Ads](https://business.google.com/us/ad-solutions/youtube-ads/?subid=us-en-ha-yt-bk-c-000!o3~CjwKCAjw--K_BhB5EiwAuwYoyh4y43nAcozFsKlFgECP-O2dAeuXvKOOcrftRkd3KAVPMTcRUgllOhoCLWkQAvD_BwE~163778712681~kwd-7683981707~21118381113~694820235790&gad_source=1&gclid=CjwKCAjw--K_BhB5EiwAuwYoyh4y43nAcozFsKlFgECP-O2dAeuXvKOOcrftRkd3KAVPMTcRUgllOhoCLWkQAvD_BwE&gclsrc=aw.ds): Drive the results you care about with YouTube Ads
 
 <br>
