@@ -1,40 +1,40 @@
 # 📈 Portfolio Marketing Plan - Taylor'D
 
-This document outlines a marketing plan aimed to promote and grow visibility for the **Taylor'D** portfolio project. Using Next.Js, HeroUI, and Sanity CMS with the goal to build a strong online presence for clients, potential employer's, and other developers or designers.
+<img src='Screenshot 2025-04-11 at 1.33.52 PM.png' alt='Project Banner' height='500'>
 
-### Table of Contents
+## Overview
 
-- What is Taylor'D?
-- Target Audience
-- Portfolio Checklist
-- Content Strategy
-- Traffic
-- SEO
-- Marketing Methods
+This document outlines a marketing plan aimed to promote **Taylor'D** and become the Top productivity tool and build brand awareness. Built with developers and planners in mind.
 
-<br>
+---
 
 ### **📦 What is Taylor'D?**
 
 _Code. Design. Perfectly Taylor'D._ portfolio project can be seen as a more digital alternative to writing a cover letter or resume. **Taylor'D** is built using Next.JS with a clean UI from the help of HeroUI and TailwindCSS and data coming in from Sanity CMS. This portfolio will display my skills, achievements, education, and projects.
 
+---
+
 ### **🎯 Target Audience: Why and Who?**
 
 - Tech recruiters or hiring managers
 - Startups looking for web/dev skills
-- Collaborators and other developers or designers
-- Local colleges or Remote
-- Online community (GeeksForGeeks, Medium, LinkedIn, etc.)
+- **Developers**: Tool to manage task and projects
+- **Teachers**: Flexible monthly planner
+- **Technology Teams**: Alternative to Notes or Reminders
+
+---
 
 ### **🧳 Portfolio Checklist**
 
-- [x] Mobile friendly and accessible
+- [x] Markdown Template
+- [] Mobile friendly and accessible
 - [x] Identify target audience
-- [x] Contact form & Social links
-- [x] Identify target audience
-- [x] CLear CTA - Connect, Hire Me
+- [] Contact form & Social links
+- [] CLear CTA - Connect, Hire Me
 - Employer?
-- Paragraph describing product and who target audience
+- [x]Paragraph describing product
+
+---
 
 ### **✍🏽 Content Strategy**
 
@@ -54,6 +54,17 @@ _Code. Design. Perfectly Taylor'D._ portfolio project can be seen as a more digi
 - YouTube
 
 <br>
+
+---
+
+### **📈 Analytics**
+
+**Metrics to track**:
+
+- GitHub stars and forks
+- Traffic
+
+---
 
 ### **🚦 Drive Traffic**
 
@@ -94,6 +105,8 @@ _Code. Design. Perfectly Taylor'D._ portfolio project can be seen as a more digi
 
 <br>
 
+---
+
 ### **🔎 SEO**
 
 - Target audience
@@ -102,6 +115,8 @@ _Code. Design. Perfectly Taylor'D._ portfolio project can be seen as a more digi
 - articulate plan to drive traffic to Capstone
 
 <br>
+
+---
 
 ### **💹 Marketing Methods**
 
@@ -179,7 +194,7 @@ _Code. Design. Perfectly Taylor'D._ portfolio project can be seen as a more digi
 
 <br>
 
-<hr>
+---
 
 ### 🔗 Reference Links
 
