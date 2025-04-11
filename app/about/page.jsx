@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { UserAvatar } from '../../components/Avatar';
 import { client } from '../../sanity/lib/client';
 
 const query =
@@ -16,21 +16,23 @@ export default async function aboutPage() {
       {profile.map((data) => (
         <div
           key={data._id}
-          className='flex flex-column justify-center min-width-0 fill-width'>
-          <div>
-            <Image
+          className='flex flex-column justify-center min-width-0 fill-width gap-10'>
+          <div className='p-'>
+            <UserAvatar picture={data.profileImage.image} />
+            {/* <Image
+              className='rounded-sm'
               src={data.profileImage.image}
               alt='Profile pic'
-              width={160}
-              height={160}
-            />
-            <p className='font-bold'>{data.location}</p>
+              width={100}
+              height={100}
+            /> */}
+            <p className='font-bold'>🇺🇸{data.location} </p>
           </div>
-          <div className='flex-1 text-start'>
+          <div className='flex flex-col text-start gap-5'>
             <h1 className='text-7xl'>{data.fullName}</h1>
-            <h4>{data.email}</h4>
-            {/* <p>{data?.fullBio}</p> */}
             <p>{data.headline}</p>
+            <h4>{data.email}</h4>
+            <p>{data?.shortBio}</p>
           </div>
         </div>
       ))}

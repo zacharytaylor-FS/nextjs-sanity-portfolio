@@ -13,15 +13,20 @@ export default function Home() {
               priority
             />
           </div> */}
-          <div className=''>
-            <h1 className='text-9xl font-bold mb-4 text-foreground'>
+          <div className='flex flex-col mx-auto justify-center text-center'>
+            <h1 className='text-9xl font-extrabold mb-4 text-foreground text-center'>
               Taylor'D
             </h1>
-            <h2 className='text-3xl mb-4'> Code. Design. Perfectly Taylor'D</h2>
-            <h3 className='text-2xl'>
-              I'm Zachary, a Full-stack developer, making changes one page at a
-              time.
-            </h3>
+            <div className='text-start'>
+              <h2 className='text-2xl mt-5 '>
+                {' '}
+                Code. Design. Perfectly Taylor'D
+              </h2>
+              <p className='text-md py-3 font-semibold '>
+                Hi, my name is Zachary, a Full-stack developer, making changes
+                one page at a time.
+              </p>
+            </div>
           </div>
         </div>
       </main>
