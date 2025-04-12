@@ -1,3 +1,4 @@
+import { Button } from '@heroui/button';
 import { UserAvatar } from '../../components/Avatar';
 import { client } from '../../sanity/lib/client';
 
@@ -16,23 +17,21 @@ export default async function aboutPage() {
       {profile.map((data) => (
         <div
           key={data._id}
-          className='flex flex-column justify-center min-width-0 fill-width gap-10'>
-          <div className='p-'>
+          className='flex justify-center min-width-0 fill-width gap-10'>
+          <div className='flex flex-col px-10 pb-20 gap-6 items-center max-w-[160px]'>
             <UserAvatar picture={data.profileImage.image} />
-            {/* <Image
-              className='rounded-sm'
-              src={data.profileImage.image}
-              alt='Profile pic'
-              width={100}
-              height={100}
-            /> */}
-            <p className='font-bold'>🇺🇸{data.location} </p>
+            <small className='text-medium'>{data.location} 🌎</small>
           </div>
-          <div className='flex flex-col text-start gap-5'>
-            <h1 className='text-7xl'>{data.fullName}</h1>
-            <p>{data.headline}</p>
-            <h4>{data.email}</h4>
-            <p>{data?.shortBio}</p>
+          <div className='flex flex-col text-start gap-5 text-white'>
+            <Button>Schedule a Session</Button>
+            <h1 className='text-7xl font-extrabold'>{data.fullName}</h1>
+            <span className='text-4xl font-extralight text-[#959595] '>
+              {data.headline}
+            </span>
+            <div>
+              <small>{data.email}</small>
+              <small>{data?.shortBio}</small>
+            </div>
           </div>
         </div>
       ))}
