@@ -54,9 +54,9 @@ export const Navbar = () => {
         <NavbarBrand as='li' className='gap-3 max-w-fit'>
           <NextLink className='flex justify-start items-center gap-1' href='/'>
             <Logo
-              logo='./TayDarkLogoSmall.png'
-              height={200}
-              width={200}
+              logo='./images/TayDarkLogoSmall.png'
+              height={100}
+              width={100}
               className='rounded-none'
             />
             {/* <p className='font-bold text-inherit'>FOLIO</p> */}

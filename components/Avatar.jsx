@@ -3,8 +3,18 @@ import { Avatar } from '@heroui/react';
 
 export const UserAvatar = ({ picture }) => {
   return (
-    <div className='flex items-center '>
-      <Avatar showFallback src={picture} className='w-[150px] h-[150px]' />
+    <div className='flex overflow-hidden fill min-w-0 fill-width items-center justify-center relative radius-full'>
+      <Avatar
+        isBordered
+        showFallback
+        src={picture}
+        radius='full'
+        className='w-[150px] h-[150px] object-fill overflow-hidden '
+        // Todo: Change default object-fit to fill
+        classNames={{
+          img: 'object-fill',
+        }}
+      />
     </div>
   );
 };
