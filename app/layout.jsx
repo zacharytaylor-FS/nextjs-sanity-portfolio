@@ -39,7 +39,9 @@ export default function RootLayout({ children }) {
               <Link href={'/projects'}>Projects</Link>
               {/* <ThemeSwitch /> 
             </nav> */}
-            <main className='w-full max-w-9xl px-6 flex-grow'>{children}</main>
+            <main className='w-full max-w-9xl px-l py-l flex-grow'>
+              {children}
+            </main>
             {/* <ThemeSwitcher /> */}
           </div>
         </Providers>
