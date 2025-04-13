@@ -24,18 +24,17 @@ Describe what CMS you plan to use for the portfolio project. Find best CMS used 
 
 - Schemas are used to describe documents and fields for profile, project, category, job, and post.
 
-<br>
-***
+---
 
-# Change Order
+### Change Order
 
-Provide the following informaton:
+Provide the following information:
 
 - Confirm this document summarizes the proposed tech stack: Yes or ?
   Yes
 - Is there any additional tool or technology you may like to use for this project given enough time?
   I would like to add some animation if I had more time.
 - List and describe any proposed changes to the original tech stack
-  I updated the changes to relfect my portfolio. NextUI has been renamed to HeroUI
+  I updated the changes to reflect my portfolio. NextUI has been renamed to HeroUI
 
 Keep in mind, approval is needed for proposed work and may include peer or instructor review(s). If you are unsure about your proposed ideas feel free to reach out to us for guidance.
