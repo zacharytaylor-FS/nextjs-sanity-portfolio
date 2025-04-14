@@ -1,3 +1,4 @@
+'use client';
 import { Button } from '@heroui/button';
 import { Input } from '@heroui/input';
 import { Kbd } from '@heroui/kbd';
@@ -49,7 +50,7 @@ export const Navbar = () => {
   );
 
   return (
-    <HeroUINavbar maxWidth='xl' position='sticky' className='max-w-9xl'>
+    <HeroUINavbar maxWidth='2xl' position='sticky' className='w-full'>
       <NavbarContent className='basis-1/5 sm:basis-full' justify='start'>
         <NavbarBrand as='li' className='gap-3 max-w-fit'>
           <NextLink className='flex justify-start items-center gap-1' href='/'>

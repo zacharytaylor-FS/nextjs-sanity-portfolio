@@ -32,8 +32,11 @@ export default function RootLayout({ children }) {
         <Providers themeProps={{ attribute: 'class' }}>
           <div className='relative flex flex-col h-screen w-screen'>
             <Navbar />
-            <main className='w-full max-w-9xl px-l py-l flex-grow'>
+            <main className='w-full max-w-[1536px] px-l py-l flex-grow'>
+              {/* <UserProvider> */}
               {children}
+
+              {/* </UserProvider> */}
             </main>
             <footer className='row-start-3 flex gap-6 flex-wrap items-center justify-center'>
               <small>&copy; 2025 My Portfolio. All rights reserved.</small>
