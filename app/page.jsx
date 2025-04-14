@@ -14,7 +14,7 @@ export default function Home() {
             />
           </div> */}
           <div className='flex flex-col mx-auto justify-center align-middle text-center'>
-            <h1 className='text-4xl md:text-9xl font-extrabold mb-6 text-foreground text-center'>
+            <h1 className='text-5xl sm:text-9xl font-extrabold mb-6 text-foreground text-center'>
               Taylor'D
             </h1>
             <div className='text-start'>
