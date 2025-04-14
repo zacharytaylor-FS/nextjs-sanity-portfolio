@@ -1,18 +1,8 @@
 # 📊 Portfolio Analytics Plan - Taylor'D
 
-- **Analytics Plan**
-- **Zachary Taylor**
-- **Assignment Due Date: 04/13/25**
-
----
-
 ## Overview
 
-Methodology What specifically do you need to measure and how will you accomplish this.
-Implementation Plan How will you add analytics tracking to your Capstone Project site
-
-- Identify target audience
-- Paragraph describing product and who target audience
+This document outlines a analytics plan aimed to improve **Taylor'D** by using analytics tools to track page views, events (e.g., CTA clicks, Social Media clicks), or UX insight.
 
 ---
 
