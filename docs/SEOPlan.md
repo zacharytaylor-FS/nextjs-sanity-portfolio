@@ -112,7 +112,7 @@ Enable search results that engage users and encourage them to interact with your
   - Person
   - Website
   - [ProfilePage structured data](https://developers.google.com/search/docs/appearance/structured-data/profile-page)
-- Use [schema.org](schema.org) vocabulary along with Micro data, RDFa, or JSON-LD format to add information to your Web content
+- Use [schema.org](schema.org) vocabulary along with Microdata, RDFa, or JSON-LD format to add information to your Web content
 
 ---
 
@@ -142,6 +142,9 @@ Enable search results that engage users and encourage them to interact with your
 ## Reference Links
 
 Use this section to highlight your own independent research. Replace the example references below with your own links and recommended resources. For example...
+
+**Google**
+[URL Inspection Tool](https://support.google.com/webmasters/answer/9012289): URL Inspection report and test
 
 **Next.js Metadata**
 [Metadata and OG images](https://nextjs.org/docs/app/getting-started/metadata-and-og-images):How to add metadata and create OG images
