@@ -2,7 +2,7 @@
 
 # Project & Portfolio
 
-### First & Last Name
+### Zachary Taylor
 
 ![Degree Program](https://img.shields.io/badge/degree-web%20development-blue.svg)&nbsp;
 
@@ -24,18 +24,44 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 ### Week 1
 
-Replace this paragraph with your stand up for this week. Use the prompts above to summarize your most recent milestone activity and work.
+⚙️ Overview - This week I worked on file structure, documentation, creating issues & issue template's, setting up app router pages, and embedding sanity in Next.Js
+<br>
+🌵 Challenges - A challenge I ran into was working with creating objects and using the structure builder for sanity. Also struggle with getting image url's from sanity api.
+<br>
+🏆 Accomplishments - I got sanity initialized and schemas created. Creating dumby data to use later. Pulling data from sanity into pages: About, Project, and Projects.
+<br>
+🔮 Next Steps - I plan on working on my todo app and building out components && continue to make improvements to my portfolio.
 
-### Week 2
+<br>
 
-My next stand up will go here...
+<!-- ### Week 2
 
-### Week 3
+⚙️ Overview - This week I worked on file structure, prioritizing important tasks.
+<br>
+🌵 Challenges -
+<br>
+🏆 Accomplishments -
+<br>
+🔮 Next Steps - -->
 
-Stay tuned, this stand up is coming soon...
+### Week 2 & 3
+
+⚙️ Overview - For Week(s) 2 & 3 I worked on file structure, building components, prioritizing issues and implementing HeroUI. Also did a tutorial on adding CodeQL from GitHub.
+<br>
+🌵 Challenges - My biggest challenge is time. I feel as if I'm running out of time. I aim to write clean code and at times holds me back from experimenting. Not sure what icon library to use.
+<br>
+🏆 Accomplishments - Improvements made to file structure, UI library added and project running with NO ISSUES.
+<br>
+🔮 Next Steps - Work on Layout and CSS variables
 
 ### Week 4
 
-My final stand up...
+⚙️ Overview - For Week 4, I worked towards getting my project to accept dynamic data from Sanity CMS. Mainly worked on implementing HeroUI and building components.
+<br>
+🌵 Challenges - My biggest challenge for this week was presenting a portfolio project that I felt comfortable presenting. Improvements need to be made to the UI.
+<br>
+🏆 Accomplishments - Doing research on Framer motion and thinking of ways to add animation.
+<br>
+🔮 Next Steps - Making Use Cases, A/B Testing, Components, and App Pages
 
 <br>
