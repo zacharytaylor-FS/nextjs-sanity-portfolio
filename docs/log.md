@@ -56,12 +56,12 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 ### Week 4
 
-⚙️ Overview - For Week 4, Im just getting to it. Mainly working on implementing HeroUI and building components
+⚙️ Overview - For Week 4, I worked towards getting my project to accept dynamic data from Sanity CMS. Mainly worked on implementing HeroUI and building components.
 <br>
-🌵 Challenges - My biggest challenge is time. I feel as if I'm running out of time. I aim to write clean code and at times holds me back from experimenting. Not sure what icon library to use.
+🌵 Challenges - My biggest challenge for this week was presenting a portfolio project that I felt comfortable presenting. Improvements need to be made to the UI.
 <br>
-🏆 Accomplishments - Improvements made to file structure, UI library added and project running with NO ISSUES.
+🏆 Accomplishments - Doing research on Framer motion and thinking of ways to add animation.
 <br>
-🔮 Next Steps - Work on Layout and CSS variables
+🔮 Next Steps - Making Use Cases, A/B Testing, Components, and App Pages
 
 <br>

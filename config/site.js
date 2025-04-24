@@ -17,30 +17,26 @@ export const siteConfig = {
       href: "/projects",
     },
     {
-      label: "Jobs",
-      href: "/jobs",
+      label: "Work",
+      href: "/work",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
-    },
-    {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "About",
+      href: "/about",
     },
     {
       label: "Projects",
       href: "/projects",
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "Work",
+      href: "/work",
     },
     {
-      label: "Calendar",
-      href: "/calendar",
+      label: "Projects",
+      href: "/projects",
     },
     {
       label: "Settings",

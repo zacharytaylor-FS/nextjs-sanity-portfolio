@@ -18,7 +18,7 @@ This document contains general notes related to validating the idea by building 
 
 ## A/B Testing
 
-What is A/B Testing? is an method where two versions of a digital assett for example a web application, app interface, or email, is tested by different user groups that figure out which is better.
+What is A/B Testing? is an method where two versions of a digital asset for example a web application, app interface, or email, is tested by different user groups that figure out which is better.
 
 - **A means Control Group**: is what you currently use that users know about already
 - **Variation Group represented by B**: new or modified variable that being compared to your control
@@ -35,9 +35,9 @@ What is A/B Testing? is an method where two versions of a digital assett for exa
 
 ## Agile Workflow
 
-Agile project management an iterative way to manage software development projects that focuses on freqeunt released with customer feedback.
+Agile project management an iterative way to manage software development projects that focuses on frequent released with customer feedback.
 
-- **Agile workflow** breaks a project in phases and focuses on collaboration and imporements.
+- **Agile workflow** breaks a project in phases and focuses on collaboration and improvements.
 - **Agile Cycle**: Planning, Executing, and Evaluating
 - **Scrum**: used to visualize progress in a a given sprint. Key component to increase transparency
 - **Agile Framework(s)**
@@ -51,7 +51,7 @@ Agile project management an iterative way to manage software development project
 
 ## Use Case
 
-Use case is the documentation of "Actions" performed by a User and "Behaviour" from the System to the User "Actions"
+Use case is the documentation of "Actions" performed by a User and "Behavior" from the System to the User "Actions"
 
 - It is **`user-oriented`**: Specify 'What actions are done by the user?' and 'What the Actors see in the system?'
 - It is not **`system-oriented`**: NOT specify 'What are the inputs given to a system?' and 'What are the outputs produced by the system?'
@@ -67,7 +67,7 @@ Measuring performance gives a key metric to help evaluate the success of an app,
 
 - Web performance along with best practices-are key to website visitors having a good experience
 - The goal is to make websites or applications faster.
-- **Percieved performance** is a measure of website performance, responsiveness, and reliability.
+- **Perceived performance** is a measure of website performance, responsiveness, and reliability.
 
 <br>
 

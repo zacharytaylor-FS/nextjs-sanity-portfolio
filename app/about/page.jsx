@@ -1,4 +1,9 @@
-import Image from 'next/image';
+// 'use client';
+import { Button } from '@heroui/button';
+import { Chip } from '@heroui/chip';
+import { Image } from '@heroui/image';
+import { UserAvatar } from '../../components/Avatar';
+import { ProfileTabs } from '../../components/ProfileTabs';
 import { client } from '../../sanity/lib/client';
 
 const query =
@@ -13,27 +18,111 @@ export default async function aboutPage() {
   console.log(profile);
   return (
     <div className=''>
-      {profile.map((data) => (
+      {/* {profile &&
+        Object.keys(profile).map((key, data) => ( */}
+      {profile.map((profile) => (
         <div
-          key={data._id}
-          className='flex flex-column justify-center min-width-0 fill-width'>
-          <div>
-            <Image
-              src={data.profileImage.image}
-              alt='Profile pic'
-              width={160}
-              height={160}
+          key={profile._id}
+          className='flex flex-col md:flex-row  justify-center min-width-0 fill-width gap-10'>
+          <div className='flex flex-col mx-auto px-10 pb-2 md:pb-20 gap-6 justify-center md:justify-normal items-center max-w-[160px]'>
+            <UserAvatar
+              picture={profile?.profileImage.image}
+              alt={profile?.profileImage.alt}
             />
-            <p className='font-bold'>{data.location}</p>
+
+            <Chip className='text-medium'>{profile.location} 🌎</Chip>
           </div>
-          <div className='flex-1 text-start'>
-            <h1 className='text-7xl'>{data.fullName}</h1>
-            <h4>{data.email}</h4>
-            {/* <p>{data?.fullBio}</p> */}
-            <p>{data.headline}</p>
+          <div className='flex flex-col text-start gap-5 dark:text-white light:text-black'>
+            <Button>Schedule a Session</Button>
+            <div>
+              <div className='flex flex-col my-8'>
+                <h1 className='text-5xl md:text-7xl font-extrabold'>
+                  {profile.fullName}
+                </h1>
+                <span className='text-2xl font-extralight mb-5 text-[#959595] '>
+                  {profile.headline}
+                </span>
+                <ProfileTabs profile={profile} />
+                {/* <div className='flex w-full flex-col'>
+                    <Tabs className='mx-auto'>
+                      <Tab
+                        key='github'
+                        as={Link}
+                        href={data.socialLinks}
+                        title={
+                          <div className='flex items-center space-x-4'>
+                            <GithubIcon />
+                            <span>Github</span>
+                          </div>
+                        }
+                      />
+                      <Tab
+                        key='linkedin'
+                        as={Link}
+                        href={data.socialLinks}
+                        title={
+                          <div className='flex items-center space-x-4'>
+                            <LinkedInIcon />
+                            <span>LinkedIn</span>
+                          </div>
+                        }
+                      />
+                      <Tab
+                        key='email'
+                        as={Link}
+                        href={data.email}
+                        title={
+                          <div className='flex items-center space-x-4'>
+                            <EmailIcon />
+                            <span>Email</span>
+                          </div>
+                        }
+                      />
+                    </Tabs>
+                  </div> */}
+              </div>
+            </div>
+            <div className='mb-10'>
+              <small className='text-lg md:text-2xl'>{profile?.shortBio}</small>
+            </div>
+            <div className='mb-10'>
+              <h2 className='text-xl md:text-5xl mb-3'>Studies</h2>
+              <div className='flex flex-col gap-x-1.5 mb-4'>
+                <small className='text-xl font-bold'>
+                  Full Sail University{' '}
+                </small>
+                <small className='text-base text-foreground-400'>
+                  Web Design & Web Development
+                </small>
+              </div>
+              <div className='flex flex-col gap-x-1.5'>
+                <small className='text-xl font-bold'>
+                  Google Career Certification{' '}
+                </small>
+                <small className='text-base text-foreground-400'>
+                  IT Support Professional
+                </small>
+              </div>
+            </div>
+            <div className='mb-10'>
+              <h2 className='text-xl md:text-5xl mb-3'>Tech Stack</h2>
+              {profile?.skills.map((skill) => (
+                <div className='flex flex-col gap-x-1.5 mb-4'>
+                  <small className='text-xl font-bold'>{skill}</small>
+                  <small className='text-base md:text-lg text-foreground-400'>
+                    Web Design & Web Development
+                  </small>
+                  <div className='flex flex-wrap gap-x-5 min-w-0 w-full mt-5'>
+                    <Image src='./images/blkLogo.png' width={'200px'} />
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       ))}
+
+      {/* ))} */}
     </div>
   );
 }
