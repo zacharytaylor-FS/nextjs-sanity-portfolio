@@ -12,6 +12,36 @@ const query =
 async function getProfile() {
   return client.fetch(query);
 }
+export const metadata = {
+  title: 'Taylor’D About',
+  description: 'Zachary Taylor About page ',
+  keywords: [
+    'Web Developer Portfolio',
+    'Next.js Developer',
+    'Tailwind CSS',
+    'Sanity CMS',
+    'JavaScript Developer',
+    'Framer Motion',
+    'Frontend Developer',
+    'Full Stack Developer',
+  ],
+  openGraph: {
+    title: 'Taylor’D About',
+    description:
+      'Explore Zachary Taylors, a modern web developer portfolio built with Next.js, Tailwind CSS, Sanity CMS, and Framer Motion.',
+    url: 'https://taylord.dev',
+    siteName: 'Zachary Taylor About',
+    images: [
+      {
+        url: 'https://taylord.dev/preview.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Taylor’D Portfolio Preview',
+      },
+    ],
+    type: 'website',
+  },
+};
 
 export default async function aboutPage() {
   const profile = await getProfile();
@@ -33,7 +63,7 @@ export default async function aboutPage() {
             <Chip className='text-medium'>{profile.location} 🌎</Chip>
           </div>
           <div className='flex flex-col text-start gap-5 dark:text-white light:text-black'>
-            <Button>Schedule a Session</Button>
+            <Button className='max-w-md'>Schedule a Session</Button>
             <div>
               <div className='flex flex-col my-8'>
                 <h1 className='text-5xl md:text-7xl font-extrabold'>

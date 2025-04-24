@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import ProjectList from '../../components/ProjectList';
 import { client } from '../../sanity/lib/client';
 
@@ -18,7 +16,7 @@ export default async function projectsPage() {
     <div className='max-w-6xl font-bold mx-auto px-6 py-12'>
       <h1>Project Page</h1>
       <ProjectList projects={projects} />
-      <div className=''>
+      {/* <div className=''>
         {projects.map((project) => (
           //Todo Add HeroUI Card to place
           <li key={project._id} className='bg-slate-400 max-w-xs p-4 flex-1 '>
@@ -41,7 +39,7 @@ export default async function projectsPage() {
             </div>
           </li>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
