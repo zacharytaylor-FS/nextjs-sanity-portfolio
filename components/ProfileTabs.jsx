@@ -21,7 +21,7 @@ export const ProfileTabs = ({ profile }) => {
         <Tab
           key='linkedin'
           as={Link}
-          href={profile.socialLinks}
+          href={profile.socialLinks.linkedin}
           title={
             <div className='flex items-center space-x-4'>
               <LinkedInIcon />
