@@ -107,7 +107,7 @@ export default async function aboutPage() {
             <div className='mb-10'>
               <h2 className='text-xl md:text-5xl mb-3'>Tech Stack</h2>
               {profile?.skills.map((skill) => (
-                <div className='flex flex-col gap-x-1.5 mb-4'>
+                <div key={skill} className='flex flex-col gap-x-1.5 mb-4'>
                   <small className='text-xl font-bold'>{skill}</small>
                   <small className='text-base md:text-lg text-foreground-400'>
                     Web Design & Web Development
