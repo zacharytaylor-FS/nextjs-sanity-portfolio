@@ -34,12 +34,12 @@ This document outlines a analytics plan aimed to improve **Taylor'D** by using a
 - Auto-track GA4
 - Sanity Route Mapping: `slug`-based routing in Next.js
 
-2. **Sanity Content Engagement**
+1. **Sanity Content Engagement**
 
 - Track slugs: scroll depth, if a blog - time of post
 - Use metadata in Sanity schema to add tags/categories for filtering reports
 
-3. **Events**
+1. **Events**
 
 Use `gtag`, or native events for:
 
