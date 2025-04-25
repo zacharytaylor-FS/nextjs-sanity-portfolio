@@ -11,6 +11,7 @@ export default defineCliConfig({
   api: { 
     projectId, dataset 
   },
+  studioHost: 'taylord',
   server: {
     hostname: 'localhost',
     port: 3333

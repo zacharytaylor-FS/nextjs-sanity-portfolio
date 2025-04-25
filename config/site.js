@@ -53,7 +53,8 @@ export const siteConfig = {
   ],
   links: {
     github: "https://github.com/zacharytaylor-FS",
-    twitter: "https://twitter.com/hero_ui",
+    twitter: "https://x.com/TgFullstack",
+    instagram: 'https://instagram.com/taylord_webdev',
     docs: "https://heroui.com",
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
