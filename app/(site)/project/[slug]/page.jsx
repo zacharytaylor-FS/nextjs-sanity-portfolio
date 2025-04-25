@@ -39,6 +39,7 @@ export default async function projectsPage({ params }) {
   const slug = await params.slug;
   const project = await getProjectBySlug(slug);
   console.log(project);
+  if (!project) return <div>No Project found</div>;
   return (
     <div className='bg-primary-50 p-4 flex flex-col gap-4 max-w-5xl rounded-md shadow-lg'>
       <div>

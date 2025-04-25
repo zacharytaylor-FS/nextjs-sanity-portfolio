@@ -1,4 +1,3 @@
-import clsx from 'clsx';
 import { Geist } from 'next/font/google';
 import BackButton from '../../components/BackButton';
 import { Navbar } from '../../components/Navbar';
@@ -21,7 +20,7 @@ const geistSans = Geist({
 export default function RootLayout({ children }) {
   return (
     <html lang='en' suppressHydrationWarning className=''>
-      <body className={clsx(`min-h-screen ${geistSans.variable} antialiased`)}>
+      <body className={`min-h-screen ${geistSans.variable} antialiased`}>
         <Providers themeProps={{ attribute: 'class' }}>
           <div className='relative flex flex-col h-screen w-screen gap-3'>
             <Navbar />

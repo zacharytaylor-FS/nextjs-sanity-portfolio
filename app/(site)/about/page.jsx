@@ -2,10 +2,10 @@
 import { Button } from '@heroui/button';
 import { Chip } from '@heroui/chip';
 import { Image } from '@heroui/image';
+import { PortableText } from 'next-sanity';
 import { UserAvatar } from '../../../components/Avatar';
 import { ProfileTabs } from '../../../components/ProfileTabs';
 import { client } from '../../../sanity/lib/client';
-
 const query =
   '*[_type == "profile"]{_id, fullName, email, location, skills, socialLinks, headline, fullBio, shortBio, resumeURL, profileImage {alt, "image": asset->url}}';
 
@@ -113,7 +113,16 @@ export default async function aboutPage() {
               </div>
             </div>
             <div className='mb-10'>
-              <small className='text-lg md:text-2xl'>{profile?.shortBio}</small>
+              {/* <small className='text-lg md:text-2xl'>{profile.shortBio}</small> */}
+              <div className='text-white'>
+                <p className='text-lg pb-7'>{profile.shortBio}</p>
+
+                <small>
+                  {Array.isArray(profile.fullBio) && (
+                    <PortableText value={profile?.fullBio} />
+                  )}
+                </small>
+              </div>
             </div>
             <div className='mb-10'>
               <h2 className='text-xl md:text-5xl mb-3'>Studies</h2>

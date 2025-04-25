@@ -12,6 +12,7 @@ export default async function projectsPage() {
   const projects = await getProjects();
   console.log(projects);
   console.log(projects);
+
   return (
     <div className='max-w-6xl font-bold mx-auto px-6 py-12'>
       <h1 className='text-4xl mb-5'>Projects</h1>
