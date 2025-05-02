@@ -1,4 +1,4 @@
-export default function AboutLayout({ children }) {
+export default function ProjectsLayout({ children }) {
   return (
     <section className=''>
       <div className='flex justify-start md:justify-center mx-auto'>

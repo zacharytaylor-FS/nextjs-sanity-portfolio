@@ -17,11 +17,15 @@ export const siteConfig = {
       href: "/projects",
     },
     {
-      label: "Work",
-      href: "/work",
+      label: "Contact",
+      href: "/contact",
     },
   ],
   navMenuItems: [
+    {
+      label: "Home",
+      href: "/",
+    },
     {
       label: "About",
       href: "/about",
@@ -31,24 +35,8 @@ export const siteConfig = {
       href: "/projects",
     },
     {
-      label: "Work",
-      href: "/work",
-    },
-    {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "Contact",
+      href: "/contact",
     },
   ],
   links: {

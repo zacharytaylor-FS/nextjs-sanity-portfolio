@@ -11,6 +11,13 @@ import { PortableText } from 'next-sanity';
 import Link from 'next/link';
 
 export default function ProjectList({ projects }) {
+  if (!projects) {
+    return (
+      <div>
+        <h1>No Projects at this time</h1>
+      </div>
+    );
+  }
   return (
     <div className='gap-8 grid grid-cols-1 lg:mx-auto md:justify-start'>
       {projects.map((project) => (
@@ -18,7 +25,7 @@ export default function ProjectList({ projects }) {
           <CardHeader className='py-0 px-4 flex-col items-start'>
             <div className='relative'>
               <Image
-                className='w-full rounded-xl h-20'
+                className='w-full rounded-xl w-30 h-20'
                 src={project.coverImage.image}
                 alt='Project Image'
                 style={{
@@ -30,21 +37,33 @@ export default function ProjectList({ projects }) {
             <h1 className='font-bold text-xl mt-2'>{project.title}</h1>
           </CardHeader>
           <CardBody className='py-4 gap-4'>
-            <div className='py-3'>
+            {/* <p>{project.overview}</p> */}
+            <div className='py-3 prose'>
               {Array.isArray(project.description) && (
-                <PortableText value={project.description} />
+                <div className='text-tiny font-normal'>
+                  <PortableText value={project.overview} />
+                </div>
               )}
             </div>
             {/* <p className='mt-2 text-lg'>{project.client}</p>
             <p className='mt-2 text-sm'>{project.slug.current}</p> */}
             <ul className='flex gap-2 flex-wrap'>
-              {project.tags.map((tag, index) => (
-                <li
-                  key={tag}
-                  className='flex-auto bg-primary max-w-fit p-1 rounded-md'>
-                  <small className='text-tiny font-bold'>{tag}</small>
-                </li>
-              ))}
+              {project &&
+                project.tags?.map((tag, index) => (
+                  <li
+                    key={index}
+                    className='flex-auto bg-primary max-w-fit p-1 rounded-md'>
+                    <small className='text-tiny font-bold'>{tag}</small>
+                  </li>
+                ))}
+              {project &&
+                project.technologies?.map((tech, index) => (
+                  <li
+                    key={index}
+                    className='flex-auto bg-primary max-w-fit p-1 rounded-md'>
+                    <small className='text-tiny font-bold'>{tech}</small>
+                  </li>
+                ))}
             </ul>
             {/* {project?.tags && (
                 <div key={project.tags} className='mr-2 flex space-x-3'>

@@ -1,5 +1,5 @@
 import BackButton from '../../../components/BackButton';
-export default function AboutLayout({ children }) {
+export default function ProjectLayout({ children }) {
   return (
     <section className='flex flex-col items-center justify-center gap-4 py-8 md:py-10'>
       <BackButton />
