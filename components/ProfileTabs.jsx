@@ -5,8 +5,8 @@ import { EmailIcon, GithubIcon, LinkedInIcon } from './icons';
 
 export const ProfileTabs = ({ profile }) => {
   return (
-    <div className='flex w-full flex-col '>
-      <Tabs className='mx-auto md:justify-start'>
+    <div className='flex w-full flex-col justify-center md:justify-start pb-4 gap-8'>
+      <Tabs className='justify-center md:justify-start'>
         <Tab
           key='github'
           as={Link}
