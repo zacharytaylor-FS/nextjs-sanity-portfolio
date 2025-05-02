@@ -83,6 +83,11 @@ export const projectType = defineType({
       type: 'url',
     }),
     defineField({
+      name: 'publishedAt',
+      title: 'PublishedAt',
+      type: 'datetime',
+    }),
+    defineField({
       name: 'tags',
       title: 'Tags',
       type: 'array',
