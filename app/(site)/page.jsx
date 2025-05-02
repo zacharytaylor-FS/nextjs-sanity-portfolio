@@ -18,16 +18,8 @@ export const metadata = {
     title: 'Taylor’D | Creative Web Developer Portfolio',
     description:
       'Explore Taylor’D, a modern web developer portfolio built with Next.js, Tailwind CSS, Sanity CMS, and Framer Motion.',
-    url: 'https://taylord.dev',
+    url: 'https://taylord-portfolio-zachary-taylors-projects-f75ab8a1.vercel.app/',
     siteName: 'Taylor’D Portfolio',
-    images: [
-      {
-        url: 'https://taylord.dev/preview.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Taylor’D Portfolio Preview',
-      },
-    ],
     type: 'website',
   },
 };

@@ -1,44 +1,47 @@
 import { PortableText } from 'next-sanity';
 import Image from 'next/image';
 import { getProjectBySlug } from '../../../../sanity/lib/queries';
-export const metadata = {
-  // const slug = params.slug;
 
+export async function generateMetadata({ params }) {
+  const slug = params.slug;
+  const project = await getProjectBySlug(slug);
   // const project = getProjectBySlug(params.slug);
-
-  title: ` Taylor'D Projects`,
-  description: `Taylord project 1`,
-  keywords: [
-    'Web Developer Portfolio',
-    'Next.js Developer',
-    'Tailwind CSS',
-    'Sanity CMS',
-    'JavaScript Developer',
-    'Framer Motion',
-    'Frontend Developer',
-    'Full Stack Developer',
-  ],
-  openGraph: {
-    title: `Taylor'D Projects`,
-    description: `Taylord project 1`,
-    url: `https://taylord.dev/projects/slug || https://taylord.dev/projects/slug`,
-    siteName: 'Taylor’D Projects',
-    // images: [
-    //   {
-    //     url: 'https://taylord.dev/preview.jpg',
-    //     width: 1200,
-    //     height: 630,
-    //     alt: 'Taylor’D Portfolio Preview',
-    //   },
-    // ],
-    type: 'website',
-  },
-};
+  return {
+    title: ` Taylor'D Project ${project.title}`,
+    description: `Taylord ${project.description}`,
+    keywords: [
+      'Web Developer Portfolio',
+      'Next.js Developer',
+      'Tailwind CSS',
+      'Sanity CMS',
+      'JavaScript Developer',
+      'Framer Motion',
+      'Frontend Developer',
+      'Full Stack Developer',
+    ],
+    openGraph: {
+      title: `Taylor'D Project ${project.title}`,
+      description: `Taylor'D ${project.description}`,
+      url: `https://taylord-portfolio-zachary-taylors-projects-f75ab8a1.vercel.app/project/${project.slug}`,
+      siteName: `Taylor’D Project ${project.title}`,
+      // images: [
+      //   {
+      //     url: 'https://taylord.dev/preview.jpg',
+      //     width: 1200,
+      //     height: 630,
+      //     alt: 'Taylor’D Portfolio Preview',
+      //   },
+      // ],
+      type: 'website',
+    },
+  };
+}
 
 export default async function projectsPage({ params }) {
   const slug = await params.slug;
-  const project = await getProjectBySlug(slug);
+  const project = await getProjectBySlug(params.slug);
   console.log(project);
+  if (!project) return <div>No Project found</div>;
   return (
     <div className='bg-primary-50 p-4 flex flex-col gap-4 max-w-5xl rounded-md shadow-lg'>
       <div>
@@ -47,8 +50,8 @@ export default async function projectsPage({ params }) {
             className='w-full rounded-md'
             src={project?.coverImage.image}
             sizes='100vw'
-            width={300}
-            height={280}
+            width={800}
+            height={800}
             alt='Project Image'
             style={{
               width: '100%',
