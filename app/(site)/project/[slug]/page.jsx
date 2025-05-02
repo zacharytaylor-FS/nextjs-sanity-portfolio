@@ -24,14 +24,14 @@ export async function generateMetadata({ params }) {
       description: `Taylor'D ${project.description}`,
       url: `https://taylord-portfolio-zachary-taylors-projects-f75ab8a1.vercel.app/project/${project.slug}`,
       siteName: `Taylor’D Project ${project.title}`,
-      // images: [
-      //   {
-      //     url: 'https://taylord.dev/preview.jpg',
-      //     width: 1200,
-      //     height: 630,
-      //     alt: 'Taylor’D Portfolio Preview',
-      //   },
-      // ],
+      images: [
+        {
+          url: project.coverImage.image,
+          width: 800,
+          height: 800,
+          alt: project.coverImage.alt,
+        },
+      ],
       type: 'website',
     },
   };

@@ -51,7 +51,7 @@ export default async function aboutPage() {
       {profile.map((profile) => (
         <div
           key={profile._id}
-          className='relative flex flex-col md:flex-row min-h-screen justify-center min-width-0 fill-width'>
+          className='relative flex flex-col md:flex-row min-h-screen justify-center min-width-0 max-w-5xl mx-auto'>
           <div className='w-1/3 relative md:sticky flex top-0 h-fit flex-col mx-auto md:mx-0 sm:mr-auto px-10 pb-2 md:pb-20 gap-6 justify-center md:justify-normal items-center min-width-[160px]'>
             <div className='relative border-1.5 rounded-full'>
               <UserAvatar
@@ -114,7 +114,7 @@ export default async function aboutPage() {
               </div>
             </div>
             <div className='my-10'>
-              <div className='text-white'>
+              <div className='light:text-black dark:text-white'>
                 {Array.isArray(profile.fullBio) && (
                   <small className='text-lg text-start'>
                     <PortableText
