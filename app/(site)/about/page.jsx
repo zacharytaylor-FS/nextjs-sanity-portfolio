@@ -1,4 +1,3 @@
-// 'use client';
 import { Chip } from '@heroui/chip';
 import { Image } from '@heroui/image';
 import { PortableText } from 'next-sanity';
@@ -76,43 +75,6 @@ export default async function aboutPage() {
                   {profile.headline}
                 </span>
                 <ProfileTabs className='justify-center' profile={profile} />
-                {/* <div className='flex w-full flex-col'>
-                    <Tabs className='mx-auto'>
-                      <Tab
-                        key='github'
-                        as={Link}
-                        href={data.socialLinks}
-                        title={
-                          <div className='flex items-center space-x-4'>
-                            <GithubIcon />
-                            <span>Github</span>
-                          </div>
-                        }
-                      />
-                      <Tab
-                        key='linkedin'
-                        as={Link}
-                        href={data.socialLinks}
-                        title={
-                          <div className='flex items-center space-x-4'>
-                            <LinkedInIcon />
-                            <span>LinkedIn</span>
-                          </div>
-                        }
-                      />
-                      <Tab
-                        key='email'
-                        as={Link}
-                        href={data.email}
-                        title={
-                          <div className='flex items-center space-x-4'>
-                            <EmailIcon />
-                            <span>Email</span>
-                          </div>
-                        }
-                      />
-                    </Tabs>
-                  </div> */}
               </div>
             </div>
             <div className='my-10'>
@@ -125,25 +87,6 @@ export default async function aboutPage() {
                     />
                   </small>
                 )}
-              </div>
-            </div>
-            <div className='mb-10 text-start'>
-              <h2 className='text-3xl sm:text-5xl mb-3 font-bold'>Studies</h2>
-              <div className='flex flex-col gap-x-1.5 mb-4'>
-                <small className='text-xl font-bold'>
-                  Full Sail University{' '}
-                </small>
-                <small className='text-base text-foreground-400'>
-                  Web Design & Web Development
-                </small>
-              </div>
-              <div className='flex flex-col gap-x-1.5'>
-                <small className='text-xl font-bold'>
-                  Google Career Certification{' '}
-                </small>
-                <small className='text-base text-foreground-400'>
-                  IT Support Professional
-                </small>
               </div>
             </div>
             <div className='mb-10 text-start'>

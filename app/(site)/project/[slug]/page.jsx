@@ -63,7 +63,6 @@ export default async function projectsPage({ params }) {
           Title: {project.title}
         </h1>
         <h3 className='text-start py-3'>Slug: {slug}</h3>
-        {/* <p>{project.description}</p> */}
         {project.technologies && (
           <div>
             <h2>Tech Stack</h2>
