@@ -1,4 +1,6 @@
+import ProjectList from '../../../components/ProjectList';
 import { client } from '../../../sanity/lib/client';
+
 const query =
   '*[_type == "project"]{_id, title, slug, overview, description, coverImage {alt, "image": asset->url}, url, tags [], technologies, client, timeline}';
 
