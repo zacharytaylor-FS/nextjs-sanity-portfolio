@@ -11,6 +11,7 @@ import { WebVitals } from '../../components/web-vitals';
 import { SanityLive } from '../../sanity/lib/live';
 import '../../styles/globals.css';
 import { Providers } from '../providers';
+Speed;
 DisableDraftMode;
 const geistSans = Geist({
   variable: '--font-geist-sans',
