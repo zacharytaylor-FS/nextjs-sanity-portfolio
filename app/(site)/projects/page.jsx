@@ -1,4 +1,3 @@
-import ProjectList from '../../../components/ProjectList';
 import { client } from '../../../sanity/lib/client';
 const query =
   '*[_type == "project"]{_id, title, slug, overview, description, coverImage {alt, "image": asset->url}, url, tags [], technologies, client, timeline}';
@@ -41,7 +40,6 @@ const options = { next: { revalidate: 60 } };
 
 export default async function projectsPage() {
   const projects = await getProjects();
-  console.log(projects);
   console.log(projects);
   if (!projects)
     return <div className='text-white'>No Projects at this time....</div>;
