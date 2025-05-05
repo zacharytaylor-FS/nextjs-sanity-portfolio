@@ -6,7 +6,9 @@
     "dev": "NODE_OPTIONS=--inspect next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@heroui/react": "^2.7.5",

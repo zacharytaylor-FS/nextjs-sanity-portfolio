@@ -21,16 +21,17 @@ export default function ProjectList({ projects }) {
   return (
     <div className='gap-8 grid grid-cols-1 lg:mx-auto md:justify-start'>
       {projects.map((project) => (
-        <Card key={project.title} shadow='md' className='py-4 max-w-[550px]'>
+        <Card key={project.title} shadow='md' className='py-4 max-w-4xl'>
           <CardHeader className='py-0 px-4 flex-col items-start'>
-            <div className='relative'>
+            <div className='relative w-full'>
               <Image
-                className='w-full rounded-xl w-30 h-20'
+                className='aspect-video rounded-xl w-full'
                 src={project.coverImage.image}
                 alt='Project Image'
                 style={{
-                  width: '550px',
-                  height: '310px',
+                  objectFit: 'fill',
+                  width: '100%',
+                  height: 'auto',
                 }}
               />
             </div>
