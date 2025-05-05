@@ -61,7 +61,7 @@ A content-driven personal portfolio website to display skills, projects, and job
   - Vercel account for deployment
 
 **Local Setup:**
-git clone git@github.com:zacharytaylor-FS/taylord-portfolio.git
+git clone <git@github.com>:zacharytaylor-FS/taylord-portfolio.git
 cd taylord-portfolio
 npm install
 cp .env.example .env.local
