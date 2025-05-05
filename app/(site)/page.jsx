@@ -1,4 +1,3 @@
-import Script from 'next/script';
 import { client } from '../../sanity/lib/client';
 export const metadata = {
   title:
@@ -19,7 +18,7 @@ export const metadata = {
     title: 'Taylor’D | Creative Web Developer Portfolio',
     description:
       'Explore Taylor’D, a modern web developer portfolio built with Next.js, Tailwind CSS, Sanity CMS, and Framer Motion.',
-    url: 'https://taylord-portfolio-zachary-taylors-projects-f75ab8a1.vercel.app/',
+    url: 'https://www.taylord-portfolio.com',
     siteName: 'Taylor’D Portfolio',
     type: 'website',
   },
@@ -36,7 +35,7 @@ export default async function Home() {
   console.log(projects);
   return (
     <>
-      <Script id='next'>
+      {/* <Script id='next'>
         async src={`https://www.googletagmanager.com/gtag/js?id=G-TX8ZS8HD77`}
       </Script>
       <Script id='next'>
@@ -44,7 +43,7 @@ export default async function Home() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-TX8ZS8HD77');`}
-      </Script>
+      </Script> */}
       <section className='grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]'>
         <div className='flex flex-col gap-8 row-start-2 items-center sm:items-start'>
           <div className='flex gap-x-4'>
