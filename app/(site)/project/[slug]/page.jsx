@@ -5,7 +5,6 @@ import { getProjectBySlug } from '../../../../sanity/lib/queries';
 export async function generateMetadata({ params }) {
   const slug = params.slug;
   const project = await getProjectBySlug(slug);
-  // const project = getProjectBySlug(params.slug);
   return {
     title: ` Taylor'D Project ${project.title}`,
     description: `Taylord ${project.description}`,
@@ -22,9 +21,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: `Taylor'D Project ${project.title}`,
       description: `Taylor'D ${project.description}`,
-      url:
-        `https://www.taylord-portfolio.com/${project.slug}` |
-        `https://taylord-portfolio-zachary-taylors-projects-f75ab8a1.vercel.app/project/${project.slug}`,
+      url: `https://www.taylord-portfolio.com/${project.slug}`,
       siteName: `Taylor’D Project ${project.title}`,
       images: [
         {
