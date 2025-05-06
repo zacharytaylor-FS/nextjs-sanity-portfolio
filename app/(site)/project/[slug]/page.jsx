@@ -22,7 +22,9 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: `Taylor'D Project ${project.title}`,
       description: `Taylor'D ${project.description}`,
-      url: `https://taylord-portfolio-zachary-taylors-projects-f75ab8a1.vercel.app/project/${project.slug}`,
+      url:
+        `https://www.taylord-portfolio.com/${project.slug}` |
+        `https://taylord-portfolio-zachary-taylors-projects-f75ab8a1.vercel.app/project/${project.slug}`,
       siteName: `Taylor’D Project ${project.title}`,
       images: [
         {

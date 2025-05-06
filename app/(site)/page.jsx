@@ -18,7 +18,7 @@ export const metadata = {
     title: 'Taylor’D | Creative Web Developer Portfolio',
     description:
       'Explore Taylor’D, a modern web developer portfolio built with Next.js, Tailwind CSS, Sanity CMS, and Framer Motion.',
-    url: 'https://www.taylord-portfolio.com',
+    url: 'https://www.taylord-portfolio.com/projects',
     siteName: 'Taylor’D Portfolio',
     type: 'website',
   },
