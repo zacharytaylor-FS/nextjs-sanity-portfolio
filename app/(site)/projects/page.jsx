@@ -24,7 +24,7 @@ export const metadata = {
   openGraph: {
     title: `Taylor’D Project's`,
     description: `Explore Zachary Taylor's, a modern web developer portfolio built with Next.js, Tailwind CSS, Sanity CMS, and Framer Motion.`,
-    url: 'https://taylord-portfolio-zachary-taylors-projects-f75ab8a1.vercel.app/projects',
+    url: 'https://www.taylord-portfolio.com/projects',
     siteName: `Zachary Taylor Project's`,
     // images: [
     //   {

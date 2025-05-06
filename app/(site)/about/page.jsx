@@ -47,8 +47,6 @@ export default async function aboutPage() {
   console.log(profile);
   return (
     <div className='relative'>
-      {/* {profile &&
-        Object.keys(profile).map((key, data) => ( */}
       {profile.map((profile) => (
         <div
           key={profile._id}
@@ -116,9 +114,6 @@ export default async function aboutPage() {
                 {profile?.skills.map((skill) => (
                   <div key={skill} className='grid grid-col-5 gap-x-1.5 mb-4'>
                     <small className='text-lg font-bold'>{skill}</small>
-                    {/* <small className='text-tiny md:text-md text-foreground-400'>
-                      Web Design & Web Development
-                    </small> */}
                     <div className='flex flex-wrap gap-x-5 min-w-0 w-full mt-3'>
                       <Image src='./images/blkLogo.png' width={'200px'} />
                     </div>

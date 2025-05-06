@@ -18,7 +18,7 @@ export const metadata = {
     title: 'Taylor’D | Creative Web Developer Portfolio',
     description:
       'Explore Taylor’D, a modern web developer portfolio built with Next.js, Tailwind CSS, Sanity CMS, and Framer Motion.',
-    url: 'https://www.taylord-portfolio.com/projects',
+    url: 'https://www.taylord-portfolio.com',
     siteName: 'Taylor’D Portfolio',
     type: 'website',
   },
@@ -35,15 +35,6 @@ export default async function Home() {
   console.log(projects);
   return (
     <>
-      {/* <Script id='next'>
-        async src={`https://www.googletagmanager.com/gtag/js?id=G-TX8ZS8HD77`}
-      </Script>
-      <Script id='next'>
-        {`window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-TX8ZS8HD77');`}
-      </Script> */}
       <section className='grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]'>
         <div className='flex flex-col gap-8 row-start-2 items-center sm:items-start'>
           <div className='flex gap-x-4'>

@@ -27,21 +27,6 @@ export const metadata = {
 };
 
 export default function contactPage() {
-  // const [formData, setFormData] = React.useState({
-  //   name: '',
-  //   email: '',
-  //   message: '',
-  // });
-
-  // const handleChange = (e) =>
-  //   setFormData({ ...formData, [e.target.name]: e.target.value });
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   alert('Form submitted! (Integrate backend or form handler here)');
-  //   // You can integrate with Formspree, Resend, Nodemailer, etc.
-  // };
-
   return (
     <div className='md:max-w-6xl mx-auto justify-center items-center'>
       <ContactCard />
