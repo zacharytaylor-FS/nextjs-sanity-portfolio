@@ -43,10 +43,8 @@ export default function contactPage() {
   // };
 
   return (
-    <div className='md:max-w-2xl mx-auto justify-center items-center'>
-      <div>
-        <ContactCard />
-      </div>
+    <div className='md:max-w-6xl mx-auto justify-center items-center'>
+      <ContactCard />
     </div>
   );
 }

@@ -30,13 +30,13 @@ const contactItems = [
 export const ContactCard = () => {
   const router = useRouter();
   return (
-    <div className='grid w-full grid-cols-1 sm:grid-cols-3 max-auto gap-8 lg:gap-16 mt-10 sm:mt-0'>
+    <div className='grid w-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-auto gap-8 lg:gap-16 sm:mt-0'>
       {contactItems.map((item, index) => (
         <Card
           isPressable
           key={index}
           shadow='xl'
-          className='flex-1 h-[400px] max-w-[400px] hover:bg-white/5'
+          className='flex-1 h-[400px] w-[400px] hover:bg-white/5'
           onPress={() => router.push(item.href)}>
           <CardBody className='flex justify-center items-center gap-8'>
             <span className='flex z-10 items-center justify-center w-12 h-12 text-sm border rounded-full bg-zinc-900'>
