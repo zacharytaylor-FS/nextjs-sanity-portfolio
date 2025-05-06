@@ -1,4 +1,3 @@
-// 'use client';
 import { Chip } from '@heroui/chip';
 import { Image } from '@heroui/image';
 import { PortableText } from 'next-sanity';
@@ -27,7 +26,9 @@ export const metadata = {
   openGraph: {
     title: 'Taylor’D About',
     description: `Explore Zachary Taylor's, a modern web developer portfolio built with Next.js, Tailwind CSS, Sanity CMS, and Framer Motion.`,
-    url: 'https://taylord-portfolio-zachary-taylors-projects-f75ab8a1.vercel.app/about',
+    url:
+      'https://www.taylord-portfolio.com/about' |
+      'https://taylord-portfolio-zachary-taylors-projects-f75ab8a1.vercel.app/about',
     siteName: 'Zachary Taylor About',
     images: [
       {
@@ -46,12 +47,10 @@ export default async function aboutPage() {
   console.log(profile);
   return (
     <div className='relative'>
-      {/* {profile &&
-        Object.keys(profile).map((key, data) => ( */}
       {profile.map((profile) => (
         <div
           key={profile._id}
-          className='relative flex flex-col md:flex-row min-h-screen justify-center min-width-0 fill-width'>
+          className='relative flex flex-col md:flex-row min-h-screen justify-center min-width-0 max-w-5xl mx-auto'>
           <div className='w-1/3 relative md:sticky flex top-0 h-fit flex-col mx-auto md:mx-0 sm:mr-auto px-10 pb-2 md:pb-20 gap-6 justify-center md:justify-normal items-center min-width-[160px]'>
             <div className='relative border-1.5 rounded-full'>
               <UserAvatar
@@ -74,47 +73,10 @@ export default async function aboutPage() {
                   {profile.headline}
                 </span>
                 <ProfileTabs className='justify-center' profile={profile} />
-                {/* <div className='flex w-full flex-col'>
-                    <Tabs className='mx-auto'>
-                      <Tab
-                        key='github'
-                        as={Link}
-                        href={data.socialLinks}
-                        title={
-                          <div className='flex items-center space-x-4'>
-                            <GithubIcon />
-                            <span>Github</span>
-                          </div>
-                        }
-                      />
-                      <Tab
-                        key='linkedin'
-                        as={Link}
-                        href={data.socialLinks}
-                        title={
-                          <div className='flex items-center space-x-4'>
-                            <LinkedInIcon />
-                            <span>LinkedIn</span>
-                          </div>
-                        }
-                      />
-                      <Tab
-                        key='email'
-                        as={Link}
-                        href={data.email}
-                        title={
-                          <div className='flex items-center space-x-4'>
-                            <EmailIcon />
-                            <span>Email</span>
-                          </div>
-                        }
-                      />
-                    </Tabs>
-                  </div> */}
               </div>
             </div>
             <div className='my-10'>
-              <div className='text-white'>
+              <div className='light:text-black dark:text-white'>
                 {Array.isArray(profile.fullBio) && (
                   <small className='text-lg text-start'>
                     <PortableText
@@ -145,25 +107,6 @@ export default async function aboutPage() {
               </div>
             </div>
             <div className='mb-10 text-start'>
-              <h2 className='text-3xl sm:text-5xl mb-3 font-bold'>Studies</h2>
-              <div className='flex flex-col gap-x-1.5 mb-4'>
-                <small className='text-xl font-bold'>
-                  Full Sail University{' '}
-                </small>
-                <small className='text-base text-foreground-400'>
-                  Web Design & Web Development
-                </small>
-              </div>
-              <div className='flex flex-col gap-x-1.5'>
-                <small className='text-xl font-bold'>
-                  Google Career Certification{' '}
-                </small>
-                <small className='text-base text-foreground-400'>
-                  IT Support Professional
-                </small>
-              </div>
-            </div>
-            <div className='mb-10 text-start'>
               <h2 className='text-3xl sm:text-5xl mb-3 font-bold'>
                 Tech Stack
               </h2>
@@ -171,9 +114,6 @@ export default async function aboutPage() {
                 {profile?.skills.map((skill) => (
                   <div key={skill} className='grid grid-col-5 gap-x-1.5 mb-4'>
                     <small className='text-lg font-bold'>{skill}</small>
-                    {/* <small className='text-tiny md:text-md text-foreground-400'>
-                      Web Design & Web Development
-                    </small> */}
                     <div className='flex flex-wrap gap-x-5 min-w-0 w-full mt-3'>
                       <Image src='./images/blkLogo.png' width={'200px'} />
                     </div>
