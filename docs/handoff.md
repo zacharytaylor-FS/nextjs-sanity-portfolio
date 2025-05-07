@@ -20,9 +20,9 @@ A content-driven personal portfolio website to display skills, projects, and job
 
 ## 2. Stakeholders & Contacts
 
-| Name           | Role            | Contact Info  |
-| -------------- | --------------- | ------------- |
-| Zachary Taylor | Owner/Developer | [Add contact] |
+| Name           | Role            | Contact Info               |
+| -------------- | --------------- | -------------------------- |
+| Zachary Taylor | Owner/Developer | <TG-Fullstack@outlook.com> |
 
 ---
 
@@ -78,7 +78,7 @@ npm start
 text
 
 **Hosting Provider:** Vercel  
-**Production URL:** [Add deployed site URL]  
+**Production URL:** wwww.taylord-portfolio.com  
 **Deployment Process:**
 
 - Push to `main` branch triggers Vercel deployment
@@ -96,7 +96,7 @@ text
 
 /styles # Tailwind and custom CSS
 
-text
+/docs # Miscellaneous Documentation related to: Research, Design, TechStack, Plans for Analytics/SEO/Marketing, and log file used as a status update/check for my instructor.
 
 ---
 
@@ -132,7 +132,12 @@ text
 
 ## 10. Known Issues, Workarounds & Technical Debt
 
-- **Known Issues:** [List here or link to GitHub Issues]
+- **Known Issues:**
+
+  - [#41](https://github.com/zacharytaylor-FS/taylord-portfolio/issues/41)
+  - [#24](https://github.com/zacharytaylor-FS/taylord-portfolio/issues/24)
+  - [#26](https://github.com/zacharytaylor-FS/taylord-portfolio/issues/26)
+
 - **Workarounds:** N/A
 - **Technical Debt:** N/A
 
@@ -140,7 +145,7 @@ text
 
 ## 11. Support & Maintenance
 
-- **Main Contact:** Zachary Taylor ([Add email/contact])
+- **Main Contact:** Zachary Taylor (<TG-Fullstack@outlook.com>)
 - **Support Period:** [Define, e.g., 30 days post-handoff]
 - **Issue Tracker:** [GitHub Issues]
 
@@ -159,7 +164,7 @@ text
 
 - **Handover Date:** 2025-05-05
 - **Client Acceptance:** [Signature/Date]
-- **Feedback/Notes:** [Optional]
+- **Feedback/Notes:** [ComingSoon]
 
 ---
 

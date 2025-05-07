@@ -1,4 +1,4 @@
-# Docs.
+# Docs
 
 This folder is for miscellaneous documentation.
 
