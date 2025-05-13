@@ -40,14 +40,14 @@ export const metadata = {
 
 const options = { next: { revalidate: 60 } };
 
-export default async function projectsPage() {
+export default async function ProjectsPage() {
   const projects = await getProjects();
   console.log(projects);
-  if (!projects)
-    return <div className='text-white'>No Projects at this time....</div>;
+  // if (!projects)
+  //   return <div className='text-white'>No Projects at this time....</div>;
   return (
     <div className='max-w-6xl font-bold mx-auto px-6 py-12'>
-      <h1 className='text-4xl mb-5'>Projects</h1>
+      <h1 className='text-4xl mb-5'>My Project's</h1>
       <ProjectList projects={projects} />
     </div>
   );

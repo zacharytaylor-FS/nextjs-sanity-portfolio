@@ -1,12 +1,10 @@
 'use client';
-useRouter;
-
 import { Button, Card, CardBody } from '@heroui/react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { EmailIcon, GithubIcon, TwitterIcon } from './icons';
 
-const contactItems = [
+export const contactItems = [
   {
     label: 'GitHub',
     icon: <GithubIcon width={30} height={30} className='max-w-11' />,
@@ -37,7 +35,8 @@ export const ContactCard = () => {
           key={index}
           shadow='xl'
           className='flex-1 h-[400px] w-[400px] hover:bg-white/5'
-          onPress={() => router.push(item.href)}>
+          onPress={() => router.push(item.href)}
+          data-testid={`contact-card-${item.label.toLowerCase()}`}>
           <CardBody className='flex justify-center items-center gap-8'>
             <span className='flex z-10 items-center justify-center w-12 h-12 text-sm border rounded-full bg-zinc-900'>
               <Button
@@ -62,3 +61,4 @@ export const ContactCard = () => {
     </div>
   );
 };
+

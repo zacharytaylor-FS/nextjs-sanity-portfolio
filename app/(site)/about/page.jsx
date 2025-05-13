@@ -42,7 +42,7 @@ export const metadata = {
   },
 };
 
-export default async function aboutPage() {
+export default async function AboutPage() {
   const profile = await getProfile();
   console.log(profile);
   return (

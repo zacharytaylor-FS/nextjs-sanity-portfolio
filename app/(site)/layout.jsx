@@ -3,6 +3,7 @@ import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import clsx from 'clsx';
 import { Geist } from 'next/font/google';
+import Footer from '../../components/Footer';
 import { Navbar } from '../../components/Navbar';
 import { WebVitals } from '../../components/web-vitals';
 import '../../styles/globals.css';
@@ -31,9 +32,7 @@ export default async function RootLayout({ children }) {
                 </>
               )} */}
             </main>
-            <footer className='row-start-3 flex gap-6 flex-wrap items-center justify-center'>
-              <small>&copy; 2025 My Portfolio. All rights reserved.</small>
-            </footer>
+            <Footer />
             {/* <ThemeSwitcher /> */}
           </div>
         </Providers>

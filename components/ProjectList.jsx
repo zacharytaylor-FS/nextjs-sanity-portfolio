@@ -9,17 +9,11 @@ import {
 } from '@heroui/react';
 import { PortableText } from 'next-sanity';
 import Link from 'next/link';
-
 export default function ProjectList({ projects }) {
-  if (!projects) {
-    return (
-      <div>
-        <h1>No Projects at this time</h1>
-      </div>
-    );
-  }
+
+  if (!projects) return <div>No Projects at this time</div>
   return (
-    <div className='gap-8 grid grid-cols-1 lg:mx-auto md:justify-start'>
+    <div>
       {projects.map((project) => (
         <Card key={project.title} shadow='md' className='py-4 max-w-4xl'>
           <CardHeader className='py-0 px-4 flex-col items-start'>
@@ -42,7 +36,7 @@ export default function ProjectList({ projects }) {
             <div className='py-3 prose'>
               {Array.isArray(project.description) && (
                 <div className='text-tiny font-normal'>
-                  <PortableText value={project.overview} />
+                  <PortableText value={project.overview} data-testid='portable-text'/>
                 </div>
               )}
             </div>

@@ -1,3 +1,4 @@
+
 import { ContactCard } from '../../../components/ContactCard';
 
 export const metadata = {
@@ -26,10 +27,10 @@ export const metadata = {
   },
 };
 
-export default function contactPage() {
+export default function contactPage(){
   return (
-    <div className='md:max-w-6xl mx-auto justify-center items-center'>
-      <ContactCard />
-    </div>
-  );
+  <div className='md:max-w-6xl mx-auto justify-center items-center'>
+    <ContactCard />
+  </div>
+  )
 }

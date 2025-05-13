@@ -36,7 +36,7 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function projectsPage({ params }) {
+export default async function ProjectPage({ params }) {
   const slug = await params.slug;
   const project = await getProjectBySlug(params.slug);
   console.log(project);
@@ -61,7 +61,9 @@ export default async function projectsPage({ params }) {
         <h1 className='text-2xl font-bold mb-4 text-start'>
           Title: {project.title}
         </h1>
-        <h3 className='text-start py-3'>Slug: {slug}</h3>
+        <h3 role='heading' className='text-start py-3'>
+          Slug: {slug}
+        </h3>
         {project.technologies && (
           <div>
             <h2>Tech Stack</h2>

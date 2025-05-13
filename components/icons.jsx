@@ -149,7 +149,7 @@ export const HeartFilledIcon = ({ size = 24, width, height, ...props }) => (
   </svg>
 );
 
-export const SearchIcon = (props) => (
+export const SearchIcon = ({size = 24, width, height, ...props}) => (
   <svg
     aria-hidden='true'
     fill='none'
